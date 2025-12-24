@@ -1,0 +1,4 @@
+[19-Oct-2025 01:53:04 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\Comparator" not found in /home/tokohore/public_html/ajpm_v2/vendor/myclabs/php-enum/src/PHPUnit/Comparator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/myclabs/php-enum/src/PHPUnit/Comparator.php on line 15

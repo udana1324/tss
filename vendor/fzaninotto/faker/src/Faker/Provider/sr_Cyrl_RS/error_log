@@ -1,0 +1,12 @@
+[27-Aug-2025 15:22:55 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Address" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/sr_Cyrl_RS/Address.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/sr_Cyrl_RS/Address.php on line 5
+[30-Aug-2025 15:03:26 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Person" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/sr_Cyrl_RS/Person.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/sr_Cyrl_RS/Person.php on line 5
+[04-Sep-2025 09:32:38 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Payment" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/sr_Cyrl_RS/Payment.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/sr_Cyrl_RS/Payment.php on line 5

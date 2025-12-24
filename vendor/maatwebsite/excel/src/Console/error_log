@@ -1,0 +1,8 @@
+[18-Feb-2025 07:06:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Console/ImportMakeCommand.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Console/ImportMakeCommand.php on line 8
+[05-Mar-2025 16:44:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Console/ExportMakeCommand.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Console/ExportMakeCommand.php on line 8

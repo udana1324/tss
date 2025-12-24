@@ -1,0 +1,36 @@
+[04-Aug-2025 08:17:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Generator\StringManipulation\Pass\Pass" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/TraitPass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/TraitPass.php on line 25
+[09-Aug-2025 18:03:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Generator\StringManipulation\Pass\Pass" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/AvoidMethodClashPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/AvoidMethodClashPass.php on line 27
+[11-Aug-2025 05:24:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Generator\StringManipulation\Pass\Pass" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ConstantsPass.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ConstantsPass.php on line 7
+[13-Aug-2025 11:04:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Generator\StringManipulation\Pass\Pass" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ClassNamePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ClassNamePass.php on line 25
+[21-Aug-2025 12:52:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Generator\StringManipulation\Pass\Pass" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ClassPass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ClassPass.php on line 25
+[23-Aug-2025 23:54:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Generator\StringManipulation\Pass\Pass" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/CallTypeHintPass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/CallTypeHintPass.php on line 25
+[16-Sep-2025 09:55:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Generator\StringManipulation\Pass\Pass" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/InterfacePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/InterfacePass.php on line 25
+[30-Sep-2025 18:57:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Generator\StringManipulation\Pass\Pass" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/MagicMethodTypeHintsPass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/MagicMethodTypeHintsPass.php on line 28
+[21-Oct-2025 08:30:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Generator\StringManipulation\Pass\Pass" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/MethodDefinitionPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/MethodDefinitionPass.php on line 27

@@ -1,0 +1,12 @@
+[25-Jan-2025 11:08:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\Solution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition-contracts/src/BaseSolution.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition-contracts/src/BaseSolution.php on line 5
+[01-Feb-2025 14:11:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\Solution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition-contracts/src/RunnableSolution.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition-contracts/src/RunnableSolution.php on line 5
+[25-Sep-2025 19:45:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\Solution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition-contracts/src/RunnableSolution.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition-contracts/src/RunnableSolution.php on line 5

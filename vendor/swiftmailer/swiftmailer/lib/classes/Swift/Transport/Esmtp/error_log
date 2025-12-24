@@ -1,0 +1,12 @@
+[12-Aug-2025 05:45:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Transport_EsmtpHandler" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/EightBitMimeHandler.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/EightBitMimeHandler.php on line 23
+[26-Aug-2025 09:03:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Transport_EsmtpHandler" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/SmtpUtf8Handler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/SmtpUtf8Handler.php on line 24
+[16-Sep-2025 20:50:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Transport_EsmtpHandler" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 16

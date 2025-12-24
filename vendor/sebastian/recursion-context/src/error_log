@@ -1,0 +1,4 @@
+[24-Aug-2025 14:36:54 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\RecursionContext\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/recursion-context/src/InvalidArgumentException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/recursion-context/src/InvalidArgumentException.php on line 12

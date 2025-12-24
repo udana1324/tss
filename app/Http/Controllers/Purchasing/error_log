@@ -1,0 +1,60 @@
+[01-Jan-2025 05:47:46 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseInvoiceCollectionController.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseInvoiceCollectionController.php on line 34
+[09-Jan-2025 19:19:31 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseReturnItemController.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseReturnItemController.php on line 45
+[16-Jan-2025 13:39:54 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseOrderController.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseOrderController.php on line 36
+[17-Jan-2025 21:26:04 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/ReceivingController.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/ReceivingController.php on line 37
+[22-Jan-2025 23:16:12 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseReturnController.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseReturnController.php on line 49
+[29-Jan-2025 14:53:25 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/RekapPembelianController.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/RekapPembelianController.php on line 39
+[29-Jan-2025 15:46:22 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseInvoiceController.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseInvoiceController.php on line 37
+[28-May-2025 23:00:15 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseInvoiceCollectionController.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseInvoiceCollectionController.php on line 34
+[12-Jul-2025 00:11:51 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseReturnItemController.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseReturnItemController.php on line 45
+[16-Jul-2025 18:23:47 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseOrderController.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseOrderController.php on line 36
+[16-Aug-2025 17:12:18 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/ReceivingController.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/ReceivingController.php on line 39
+[10-Sep-2025 15:44:17 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseOrderController.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseOrderController.php on line 36
+[23-Sep-2025 09:16:51 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseInvoiceController.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseInvoiceController.php on line 37
+[13-Oct-2025 22:21:27 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseReturnController.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/PurchaseReturnController.php on line 49
+[17-Dec-2025 16:26:30 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/RekapPembelianController.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Purchasing/RekapPembelianController.php on line 39

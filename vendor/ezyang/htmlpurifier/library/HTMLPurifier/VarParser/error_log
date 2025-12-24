@@ -1,0 +1,8 @@
+[26-Mar-2025 20:06:06 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php on line 8
+[14-Apr-2025 23:58:23 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php on line 8

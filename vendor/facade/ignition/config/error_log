@@ -1,0 +1,8 @@
+[01-Apr-2025 01:27:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/config/ignition.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/config/ignition.php on line 18
+[21-Apr-2025 04:21:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/config/flare.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/config/flare.php on line 16

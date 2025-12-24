@@ -1,0 +1,8 @@
+[13-Jun-2025 02:21:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Laravel\SerializableClosure\Contracts\Serializable" not found in /home/tokohore/public_html/ajpm_v2/vendor/laravel/serializable-closure/src/Serializers/Native.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/laravel/serializable-closure/src/Serializers/Native.php on line 15
+[18-Aug-2025 05:59:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Laravel\SerializableClosure\Contracts\Serializable" not found in /home/tokohore/public_html/ajpm_v2/vendor/laravel/serializable-closure/src/Serializers/Signed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/laravel/serializable-closure/src/Serializers/Signed.php on line 9

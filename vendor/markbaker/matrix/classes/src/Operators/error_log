@@ -1,0 +1,20 @@
+[25-Jun-2025 11:16:52 UTC] PHP Fatal error:  Uncaught Error: Class "Matrix\Operators\Operator" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Operators/DirectSum.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Operators/DirectSum.php on line 8
+[29-Jun-2025 01:08:02 UTC] PHP Fatal error:  Uncaught Error: Class "Matrix\Operators\Multiplication" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Operators/Division.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Operators/Division.php on line 10
+[02-Jul-2025 20:30:11 UTC] PHP Fatal error:  Uncaught Error: Class "Matrix\Operators\Operator" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Operators/Subtraction.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Operators/Subtraction.php on line 8
+[12-Jul-2025 21:04:13 UTC] PHP Fatal error:  Uncaught Error: Class "Matrix\Operators\Operator" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Operators/Addition.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Operators/Addition.php on line 8
+[13-Jul-2025 09:37:53 UTC] PHP Fatal error:  Uncaught Error: Class "Matrix\Operators\Operator" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Operators/Multiplication.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Operators/Multiplication.php on line 10

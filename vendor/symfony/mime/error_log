@@ -1,0 +1,24 @@
+[31-Jan-2025 09:19:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/Email.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/Email.php on line 25
+[05-Feb-2025 02:05:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/MimeTypes.php on line 37
+[06-Feb-2025 01:05:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[06-Feb-2025 21:38:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[08-Feb-2025 14:35:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/Message.php on line 22
+[12-Feb-2025 03:50:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/mime/MimeTypesInterface.php on line 17

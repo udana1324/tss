@@ -1,0 +1,44 @@
+[28-Jun-2025 14:51:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\RunnableSolution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/GenerateAppKeySolution.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/GenerateAppKeySolution.php on line 8
+[29-Jun-2025 08:21:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\Solution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/SuggestUsingCorrectDbNameSolution.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/SuggestUsingCorrectDbNameSolution.php on line 7
+[06-Jul-2025 08:39:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\Solution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/SuggestLivewirePropertyNameSolution.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/SuggestLivewirePropertyNameSolution.php on line 7
+[09-Jul-2025 08:22:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\RunnableSolution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/RunMigrationsSolution.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/RunMigrationsSolution.php on line 8
+[10-Jul-2025 09:39:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\RunnableSolution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/MakeViewVariableOptionalSolution.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/MakeViewVariableOptionalSolution.php on line 9
+[12-Jul-2025 10:30:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\Solution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/SuggestLivewireMethodNameSolution.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/SuggestLivewireMethodNameSolution.php on line 7
+[16-Jul-2025 02:07:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\Solution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/MissingPackageSolution.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/MissingPackageSolution.php on line 8
+[17-Jul-2025 07:13:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\Solution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/SuggestCorrectVariableNameSolution.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/SuggestCorrectVariableNameSolution.php on line 7
+[17-Jul-2025 21:10:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\RunnableSolution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/UseDefaultValetDbCredentialsSolution.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/UseDefaultValetDbCredentialsSolution.php on line 8
+[20-Jul-2025 23:39:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Support\Arrayable" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/SolutionTransformer.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/SolutionTransformer.php on line 10
+[11-Aug-2025 07:18:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\IgnitionContracts\RunnableSolution" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/LivewireDiscoverSolution.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Solutions/LivewireDiscoverSolution.php on line 8

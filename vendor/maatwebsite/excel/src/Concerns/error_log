@@ -1,0 +1,12 @@
+[14-Apr-2025 06:57:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\WithHeadingRow" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Concerns/WithGroupedHeadingRow.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Concerns/WithGroupedHeadingRow.php on line 5
+[28-Apr-2025 05:27:22 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\Cell\IValueBinder" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Concerns/WithCustomValueBinder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Concerns/WithCustomValueBinder.php on line 7
+[10-May-2025 05:29:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Queue\ShouldQueue" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Concerns/ShouldQueueWithoutChain.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Concerns/ShouldQueueWithoutChain.php on line 7

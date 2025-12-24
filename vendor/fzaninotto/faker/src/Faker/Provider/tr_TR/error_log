@@ -1,0 +1,32 @@
+[02-Aug-2025 12:57:51 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Address" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Address.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Address.php on line 5
+[10-Aug-2025 04:30:50 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Color" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Color.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Color.php on line 5
+[14-Aug-2025 21:33:24 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\PhoneNumber" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/PhoneNumber.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/PhoneNumber.php on line 5
+[17-Aug-2025 19:14:17 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Company" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Company.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Company.php on line 5
+[21-Aug-2025 18:09:01 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Payment" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Payment.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Payment.php on line 5
+[27-Aug-2025 12:51:50 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\DateTime" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/DateTime.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/DateTime.php on line 5
+[19-Sep-2025 21:23:08 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Internet" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Internet.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Internet.php on line 5
+[30-Sep-2025 05:41:27 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Person" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Person.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Person.php on line 7

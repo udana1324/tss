@@ -1,0 +1,8 @@
+[14-Jan-2025 21:53:34 UTC] PHP Fatal error:  Uncaught Error: Interface "phpDocumentor\Reflection\DocBlockFactoryInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/reflection-docblock/src/DocBlockFactory.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/reflection-docblock/src/DocBlockFactory.php on line 36
+[08-Oct-2025 16:07:28 UTC] PHP Fatal error:  Uncaught Error: Interface "phpDocumentor\Reflection\DocBlockFactoryInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/reflection-docblock/src/DocBlockFactory.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/reflection-docblock/src/DocBlockFactory.php on line 36

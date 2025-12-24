@@ -1,0 +1,40 @@
+[05-Nov-2024 07:20:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionReceivingAllocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionReceivingAllocation.php on line 9
+[30-May-2025 17:19:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionDeliveryDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionDeliveryDetail.php on line 9
+[08-Jun-2025 09:58:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionOrderTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionOrderTerms.php on line 8
+[14-Jun-2025 21:36:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionOrderDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionOrderDetail.php on line 9
+[18-Jun-2025 14:38:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionReceiving.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionReceiving.php on line 9
+[18-Jun-2025 22:52:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionDelivery.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionDelivery.php on line 9
+[20-Jun-2025 02:59:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionReceivingTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionReceivingTerms.php on line 8
+[22-Jun-2025 20:17:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionDeliveryTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionDeliveryTerms.php on line 8
+[22-Jun-2025 21:19:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionReceivingDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionReceivingDetail.php on line 9
+[26-Jun-2025 12:27:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionDeliveryAllocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Production/ProductionDeliveryAllocation.php on line 9

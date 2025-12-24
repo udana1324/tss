@@ -1,0 +1,16 @@
+[17-Oct-2024 20:19:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Kernel.php on line 7
+[15-Jan-2025 04:57:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Kernel.php on line 7
+[18-Apr-2025 18:11:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Kernel.php on line 7
+[17-May-2025 03:15:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Kernel.php on line 7

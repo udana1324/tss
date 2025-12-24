@@ -1,0 +1,68 @@
+[17-Jul-2025 23:51:28 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsNull.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsNull.php on line 13
+[30-Jul-2025 14:32:59 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/CombinableMatcher.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/CombinableMatcher.php on line 12
+[01-Aug-2025 20:32:38 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\ShortcutCombination" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/AnyOf.php on line 15
+[02-Aug-2025 04:45:52 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Set.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Set.php on line 22
+[02-Aug-2025 21:11:43 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/ShortcutCombination.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/ShortcutCombination.php on line 12
+[02-Aug-2025 21:54:27 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\DiagnosingMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsInstanceOf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsInstanceOf.php on line 13
+[03-Aug-2025 18:53:59 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsTypeOf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsTypeOf.php on line 13
+[04-Aug-2025 10:50:39 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\TypeSafeMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsCollectionContaining.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsCollectionContaining.php on line 15
+[09-Aug-2025 03:34:30 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\FeatureMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/HasToString.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/HasToString.php on line 15
+[09-Aug-2025 13:10:04 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\DiagnosingMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/AllOf.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/AllOf.php on line 16
+[09-Aug-2025 20:06:55 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsNot.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsNot.php on line 15
+[15-Aug-2025 12:59:50 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsAnything.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsAnything.php on line 13
+[18-Aug-2025 15:47:26 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\IsSame" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsIdentical.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsIdentical.php on line 13
+[29-Aug-2025 04:42:33 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Is.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Is.php on line 19
+[30-Aug-2025 04:38:19 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\TypeSafeDiagnosingMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Every.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Every.php on line 12
+[07-Sep-2025 06:06:19 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsEqual.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsEqual.php on line 14
+[05-Nov-2025 01:18:10 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsSame.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsSame.php on line 14

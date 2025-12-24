@@ -1,0 +1,32 @@
+[05-Apr-2025 23:46:24 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_ChildDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Empty.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Empty.php on line 10
+[16-Apr-2025 14:45:46 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_ChildDef_Required" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/StrictBlockquote.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/StrictBlockquote.php on line 6
+[22-Apr-2025 16:50:26 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_ChildDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Custom.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Custom.php on line 9
+[28-Apr-2025 21:08:40 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_ChildDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Required.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Required.php on line 6
+[13-May-2025 23:21:08 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_ChildDef_Required" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Optional.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Optional.php on line 10
+[19-May-2025 08:59:55 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_ChildDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Table.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Table.php on line 32
+[24-May-2025 12:46:57 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_ChildDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/List.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/List.php on line 12
+[29-May-2025 19:11:29 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_ChildDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Chameleon.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Chameleon.php on line 12

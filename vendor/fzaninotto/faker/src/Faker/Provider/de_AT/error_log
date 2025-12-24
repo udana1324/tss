@@ -1,0 +1,28 @@
+[18-Aug-2025 10:45:19 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\PhoneNumber" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/PhoneNumber.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/PhoneNumber.php on line 5
+[18-Aug-2025 17:51:44 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Payment" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Payment.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Payment.php on line 5
+[02-Sep-2025 12:29:10 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Internet" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Internet.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Internet.php on line 5
+[04-Sep-2025 16:32:28 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\de_DE\Text" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Text.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Text.php on line 5
+[14-Sep-2025 12:56:24 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Person" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Person.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Person.php on line 5
+[16-Sep-2025 09:33:01 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Company" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Company.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Company.php on line 5
+[03-Oct-2025 18:33:10 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Provider\Address" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Address.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Address.php on line 5

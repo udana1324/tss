@@ -1,0 +1,24 @@
+[25-Aug-2025 11:50:31 UTC] PHP Fatal error:  Uncaught Error: Class "Metronic" not found in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/socicons.blade.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/socicons.blade.php on line 10
+[27-Aug-2025 04:13:07 UTC] PHP Fatal error:  Uncaught Error: Class "Metronic" not found in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/fontawesome.blade.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/fontawesome.blade.php on line 10
+[31-Aug-2025 14:52:48 UTC] PHP Fatal error:  Uncaught Error: Class "Metronic" not found in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/lineawesome.blade.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/lineawesome.blade.php on line 10
+[07-Sep-2025 12:37:30 UTC] PHP Fatal error:  Uncaught Error: Class "Metronic" not found in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/flaticon.blade.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/flaticon.blade.php on line 10
+[12-Sep-2025 08:51:29 UTC] PHP Fatal error:  Uncaught Error: Class "Metronic" not found in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/custom-icons.blade.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/custom-icons.blade.php on line 10
+[23-Sep-2025 14:02:39 UTC] PHP Fatal error:  Uncaught Error: Class "Metronic" not found in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/svg.blade.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/resources/views/pages/icons/svg.blade.php on line 10

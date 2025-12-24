@@ -1,0 +1,12 @@
+[16-May-2025 11:27:24 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\CountValidatorAbstract" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/CountValidator/AtLeast.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/CountValidator/AtLeast.php on line 25
+[23-May-2025 00:01:54 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\CountValidatorAbstract" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/CountValidator/Exact.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/CountValidator/Exact.php on line 25
+[16-Jun-2025 01:35:30 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\CountValidatorAbstract" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/CountValidator/AtMost.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/CountValidator/AtMost.php on line 25

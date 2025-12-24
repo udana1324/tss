@@ -1,0 +1,40 @@
+[19-Feb-2025 16:09:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductSpecification.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductSpecification.php on line 9
+[21-Feb-2025 03:19:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductSpecification.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductSpecification.php on line 9
+[22-Feb-2025 22:17:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductUnit.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductUnit.php on line 9
+[24-Feb-2025 00:12:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Product/Product.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Product/Product.php on line 9
+[27-Feb-2025 20:31:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductBrand.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductBrand.php on line 9
+[06-Mar-2025 21:30:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductDetailSpecification.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductDetailSpecification.php on line 9
+[14-Mar-2025 08:48:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductCategory.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductCategory.php on line 9
+[01-Apr-2025 09:39:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductCategory.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductCategory.php on line 9
+[19-Sep-2025 05:48:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductBrand.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductBrand.php on line 9
+[03-Nov-2025 07:45:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Product/ProductDetail.php on line 9

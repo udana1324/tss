@@ -1,0 +1,4 @@
+[03-Jun-2025 15:11:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Dumper\HtmlDumper" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/DumpRecorder/HtmlDumper.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/DumpRecorder/HtmlDumper.php on line 9

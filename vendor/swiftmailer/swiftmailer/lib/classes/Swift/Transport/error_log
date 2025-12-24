@@ -1,0 +1,28 @@
+[16-Jul-2025 16:26:40 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Transport_LoadBalancedTransport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php on line 16
+[18-Jul-2025 21:41:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Transport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 16
+[04-Aug-2025 11:29:27 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_ByteStream_AbstractFilterableInputStream" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 16
+[29-Aug-2025 10:52:18 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Transport_AbstractSmtpTransport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php on line 16
+[07-Sep-2025 15:15:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Transport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php on line 16
+[16-Sep-2025 02:15:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Transport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php on line 16
+[11-Oct-2025 19:38:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_InputByteStream" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php on line 16

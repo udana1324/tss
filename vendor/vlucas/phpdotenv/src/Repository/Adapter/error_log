@@ -1,0 +1,44 @@
+[01-Aug-2025 20:17:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\ReaderInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiReader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiReader.php on line 9
+[05-Aug-2025 02:20:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\ReaderInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/AdapterInterface.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/AdapterInterface.php on line 7
+[09-Aug-2025 02:00:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\AdapterInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/EnvConstAdapter.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/EnvConstAdapter.php on line 10
+[13-Aug-2025 03:02:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\WriterInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/ImmutableWriter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/ImmutableWriter.php on line 7
+[17-Aug-2025 07:57:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\WriterInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/ReplacingWriter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/ReplacingWriter.php on line 7
+[17-Aug-2025 18:36:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\AdapterInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/ApacheAdapter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/ApacheAdapter.php on line 11
+[20-Aug-2025 03:33:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\AdapterInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/ServerConstAdapter.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/ServerConstAdapter.php on line 10
+[21-Aug-2025 15:23:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\WriterInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiWriter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiWriter.php on line 7
+[28-Aug-2025 03:38:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\AdapterInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/ArrayAdapter.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/ArrayAdapter.php on line 10
+[29-Aug-2025 05:46:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\AdapterInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/PutenvAdapter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/PutenvAdapter.php on line 11
+[14-Sep-2025 23:41:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\Adapter\WriterInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/GuardedWriter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/Adapter/GuardedWriter.php on line 7

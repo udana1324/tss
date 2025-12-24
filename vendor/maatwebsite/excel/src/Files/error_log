@@ -1,0 +1,4 @@
+[06-Apr-2025 10:14:57 UTC] PHP Fatal error:  Uncaught Error: Class "Maatwebsite\Excel\Files\TemporaryFile" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Files/RemoteTemporaryFile.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Files/RemoteTemporaryFile.php on line 5

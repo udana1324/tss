@@ -1,0 +1,58 @@
+[21-Mar-2025 01:45:28 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/UnreadableFileException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/UnreadableFileException.php on line 7
+[21-Mar-2025 03:30:23 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/FileExistsException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/FileExistsException.php on line 7
+[22-Mar-2025 02:39:07 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Flysystem\FilesystemException" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Exception.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Exception.php on line 5
+[22-Mar-2025 12:47:37 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Flysystem\ReadInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/AdapterInterface.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/AdapterInterface.php on line 5
+[23-Mar-2025 04:31:41 UTC] PHP Fatal error:  Trait "League\Flysystem\Plugin\PluggableTrait" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/MountManager.php on line 24
+[24-Mar-2025 04:54:36 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Flysystem\FilesystemException" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/NotSupportedException.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/NotSupportedException.php on line 8
+[24-Mar-2025 21:19:25 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Flysystem\FilesystemException" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/InvalidRootException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/InvalidRootException.php on line 7
+[01-Apr-2025 05:30:19 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Flysystem\FilesystemException" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/RootViolationException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/RootViolationException.php on line 7
+[02-Apr-2025 14:06:18 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Flysystem\FilesystemException" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/CorruptedPathDetected.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/CorruptedPathDetected.php on line 7
+[02-Apr-2025 23:55:43 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Flysystem\FilesystemException" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/FilesystemNotFoundException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/FilesystemNotFoundException.php on line 10
+[03-Apr-2025 19:49:14 UTC] PHP Fatal error:  Trait "League\Flysystem\Plugin\PluggableTrait" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Filesystem.php on line 19
+[05-Apr-2025 03:07:37 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Flysystem\FilesystemException" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/ConnectionErrorException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/ConnectionErrorException.php on line 7
+[05-Apr-2025 08:25:28 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/FileNotFoundException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/FileNotFoundException.php on line 7
+[07-Apr-2025 07:08:14 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Handler" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/File.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/File.php on line 8
+[11-Apr-2025 04:37:04 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Flysystem\FilesystemException" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/ConnectionRuntimeException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/ConnectionRuntimeException.php on line 7
+[14-Apr-2025 06:47:13 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Handler" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Directory.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Directory.php on line 8

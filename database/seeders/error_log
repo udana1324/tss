@@ -1,0 +1,84 @@
+[07-Nov-2024 09:54:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/UserSeeder.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/UserSeeder.php on line 11
+[22-Nov-2024 08:54:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php on line 9
+[25-Nov-2024 05:32:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php on line 9
+[26-Nov-2024 05:36:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php on line 9
+[27-Nov-2024 05:33:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php on line 9
+[29-Nov-2024 05:32:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php on line 9
+[18-Dec-2024 08:48:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleSeeder.php on line 8
+[20-Dec-2024 23:00:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleAccessSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleAccessSeeder.php on line 8
+[10-Jan-2025 07:42:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleSeeder.php on line 8
+[15-Jan-2025 17:30:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php on line 9
+[17-Jan-2025 02:34:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/UserSeeder.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/UserSeeder.php on line 11
+[18-Jan-2025 17:35:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleAccessSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleAccessSeeder.php on line 8
+[20-Jan-2025 09:31:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/UserSeeder.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/UserSeeder.php on line 11
+[29-Mar-2025 01:37:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleAccessSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleAccessSeeder.php on line 8
+[13-Apr-2025 22:04:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleSeeder.php on line 8
+[19-Apr-2025 05:10:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php on line 9
+[22-Apr-2025 00:13:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleAccessSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleAccessSeeder.php on line 8
+[23-Apr-2025 15:25:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/UserSeeder.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/UserSeeder.php on line 11
+[27-Apr-2025 23:16:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/DatabaseSeeder.php on line 9
+[10-Jul-2025 22:59:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/UserSeeder.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/UserSeeder.php on line 11
+[22-Jul-2025 21:46:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/database/seeders/ModuleSeeder.php on line 8

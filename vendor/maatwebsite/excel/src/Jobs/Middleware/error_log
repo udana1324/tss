@@ -1,0 +1,1 @@
+[28-Mar-2025 21:53:59 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Jobs/Middleware/LocalizeJob.php on line 9

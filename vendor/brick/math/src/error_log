@@ -1,0 +1,16 @@
+[28-May-2025 11:16:55 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\BigNumber" not found in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/BigInteger.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/BigInteger.php on line 22
+[28-May-2025 12:39:31 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\BigNumber" not found in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/BigInteger.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/BigInteger.php on line 22
+[06-Jun-2025 21:30:16 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\BigNumber" not found in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/BigDecimal.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/BigDecimal.php on line 17
+[30-Jul-2025 14:32:49 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\BigNumber" not found in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/BigRational.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/BigRational.php on line 19

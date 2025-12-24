@@ -1,0 +1,4 @@
+[06-Mar-2025 05:29:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Exporter" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Fakes/ExcelFake.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Fakes/ExcelFake.php on line 17

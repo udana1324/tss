@@ -1,0 +1,20 @@
+[21-Jun-2025 18:40:50 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\Exception\MathException" not found in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/Exception/NumberFormatException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/Exception/NumberFormatException.php on line 10
+[25-Jun-2025 14:47:02 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\Exception\MathException" not found in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/Exception/IntegerOverflowException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/Exception/IntegerOverflowException.php on line 12
+[02-Jul-2025 14:04:29 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\Exception\MathException" not found in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/Exception/RoundingNecessaryException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/Exception/RoundingNecessaryException.php on line 10
+[07-Jul-2025 11:51:42 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\Exception\MathException" not found in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/Exception/DivisionByZeroException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/Exception/DivisionByZeroException.php on line 10
+[19-Jul-2025 18:59:51 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\Exception\MathException" not found in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/Exception/NegativeNumberException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/brick/math/src/Exception/NegativeNumberException.php on line 10

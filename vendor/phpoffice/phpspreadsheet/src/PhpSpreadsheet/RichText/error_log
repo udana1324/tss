@@ -1,0 +1,12 @@
+[10-Aug-2025 21:38:00 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\RichText\ITextElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/RichText/TextElement.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/RichText/TextElement.php on line 5
+[29-Aug-2025 11:52:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\RichText\TextElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/RichText/Run.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/RichText/Run.php on line 7
+[02-Sep-2025 03:20:40 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\IComparable" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/RichText/RichText.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/RichText/RichText.php on line 9

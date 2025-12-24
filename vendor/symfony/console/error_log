@@ -1,0 +1,8 @@
+[23-Apr-2025 22:58:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/console/Application.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/console/Application.php on line 71
+[23-Apr-2025 23:41:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/console/SingleCommandApplication.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/console/SingleCommandApplication.php on line 21

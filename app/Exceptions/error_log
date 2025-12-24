@@ -1,0 +1,16 @@
+[18-Oct-2024 11:58:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/tokohore/public_html/ajpm_v2/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exceptions/Handler.php on line 8
+[29-Jan-2025 18:30:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/tokohore/public_html/ajpm_v2/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exceptions/Handler.php on line 8
+[23-May-2025 01:06:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/tokohore/public_html/ajpm_v2/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exceptions/Handler.php on line 8
+[18-Jul-2025 22:53:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/tokohore/public_html/ajpm_v2/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exceptions/Handler.php on line 8

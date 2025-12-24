@@ -1,0 +1,8 @@
+[05-Mar-2025 19:46:27 UTC] PHP Fatal error:  Uncaught Error: Class "GrahamCampbell\ResultType\Result" not found in /home/tokohore/public_html/ajpm_v2/vendor/graham-campbell/result-type/src/Success.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/graham-campbell/result-type/src/Success.php on line 24
+[16-Apr-2025 14:01:21 UTC] PHP Fatal error:  Uncaught Error: Class "GrahamCampbell\ResultType\Result" not found in /home/tokohore/public_html/ajpm_v2/vendor/graham-campbell/result-type/src/Error.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/graham-campbell/result-type/src/Error.php on line 24

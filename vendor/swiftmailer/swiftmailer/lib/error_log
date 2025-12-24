@@ -1,0 +1,7 @@
+[08-Jan-2025 03:07:19 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php on line 133
+[10-Apr-2025 00:01:54 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Preferences" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/preferences.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/preferences.php on line 9
+[10-Apr-2025 23:34:35 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php on line 133
+[29-Oct-2025 16:47:30 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php on line 133

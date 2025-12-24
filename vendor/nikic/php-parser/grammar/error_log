@@ -1,0 +1,6 @@
+[17-Jun-2025 02:37:43 UTC] PHP Warning:  Undefined variable $argv in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/grammar/rebuildParsers.php on line 24
+[17-Jun-2025 02:37:43 UTC] PHP Fatal error:  Uncaught TypeError: array_flip(): Argument #1 ($array) must be of type array, null given in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/grammar/rebuildParsers.php:24
+Stack trace:
+#0 /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/grammar/rebuildParsers.php(24): array_flip()
+#1 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/grammar/rebuildParsers.php on line 24

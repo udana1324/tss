@@ -1,0 +1,8 @@
+[21-Aug-2025 16:26:07 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceMapInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Reference/ReferenceMap.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Reference/ReferenceMap.php on line 24
+[26-Aug-2025 09:36:52 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Reference/Reference.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Reference/Reference.php on line 22

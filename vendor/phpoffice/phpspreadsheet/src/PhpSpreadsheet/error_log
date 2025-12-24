@@ -1,0 +1,8 @@
+[12-Jul-2025 19:01:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\DefinedName" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/NamedRange.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/NamedRange.php on line 8
+[23-Aug-2025 19:56:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\DefinedName" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/NamedFormula.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/NamedFormula.php on line 7

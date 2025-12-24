@@ -1,0 +1,24 @@
+[21-Aug-2025 22:41:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/NameResolver.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/NameResolver.php on line 14
+[24-Aug-2025 22:48:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/FirstFindingVisitor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/FirstFindingVisitor.php on line 13
+[27-Aug-2025 06:47:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/CloningVisitor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/CloningVisitor.php on line 13
+[03-Sep-2025 05:41:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/NodeConnectingVisitor.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/NodeConnectingVisitor.php on line 17
+[07-Sep-2025 02:34:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/FindingVisitor.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/FindingVisitor.php on line 12
+[26-Sep-2025 00:44:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/ParentConnectingVisitor.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/ParentConnectingVisitor.php on line 16

@@ -1,0 +1,28 @@
+[25-Mar-2025 07:30:59 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS.php on line 14
+[25-Mar-2025 20:03:17 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Enum.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Enum.php on line 10
+[28-Mar-2025 13:50:00 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Clone.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Clone.php on line 7
+[30-Mar-2025 16:19:54 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Integer.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Integer.php on line 10
+[04-Apr-2025 12:34:07 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI.php on line 7
+[06-Apr-2025 13:33:34 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Text.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Text.php on line 6
+[14-Apr-2025 11:19:55 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Lang.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Lang.php on line 7

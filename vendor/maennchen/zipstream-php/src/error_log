@@ -1,0 +1,8 @@
+[10-Mar-2025 00:54:37 UTC] PHP Fatal error:  Uncaught Error: Class "ZipStream\Stream" not found in /home/tokohore/public_html/ajpm_v2/vendor/maennchen/zipstream-php/src/DeflateStream.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maennchen/zipstream-php/src/DeflateStream.php on line 6
+[21-Mar-2025 09:16:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\StreamInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/maennchen/zipstream-php/src/Stream.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maennchen/zipstream-php/src/Stream.php on line 16

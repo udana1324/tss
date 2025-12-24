@@ -1,0 +1,8 @@
+[26-Feb-2025 16:43:26 UTC] PHP Fatal error:  Uncaught Error: Interface "NunoMaduro\Collision\Contracts\SolutionsRepository" not found in /home/tokohore/public_html/ajpm_v2/vendor/nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php on line 13
+[15-Oct-2025 05:21:48 UTC] PHP Fatal error:  Uncaught Error: Interface "NunoMaduro\Collision\Contracts\SolutionsRepository" not found in /home/tokohore/public_html/ajpm_v2/vendor/nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php on line 13

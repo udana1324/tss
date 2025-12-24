@@ -1,0 +1,8 @@
+[11-Apr-2025 02:52:13 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php on line 8
+[09-May-2025 10:53:41 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php on line 18

@@ -1,0 +1,12 @@
+[09-Jun-2025 16:00:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Commands/SolutionProviderMakeCommand.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Commands/SolutionProviderMakeCommand.php on line 7
+[13-Jun-2025 12:01:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Commands/TestCommand.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Commands/TestCommand.php on line 13
+[25-Jun-2025 13:59:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Commands/SolutionMakeCommand.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Commands/SolutionMakeCommand.php on line 8

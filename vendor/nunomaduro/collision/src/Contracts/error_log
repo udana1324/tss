@@ -1,0 +1,4 @@
+[05-Mar-2025 13:54:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Whoops\Handler\HandlerInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/nunomaduro/collision/src/Contracts/Handler.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nunomaduro/collision/src/Contracts/Handler.php on line 13

@@ -1,0 +1,12 @@
+[13-Aug-2025 06:58:38 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeUnit\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/code-unit/src/exceptions/InvalidCodeUnitException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/code-unit/src/exceptions/InvalidCodeUnitException.php on line 14
+[20-Aug-2025 02:52:29 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeUnit\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/code-unit/src/exceptions/ReflectionException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/code-unit/src/exceptions/ReflectionException.php on line 14
+[02-Sep-2025 06:59:30 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeUnit\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/code-unit/src/exceptions/NoTraitException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/code-unit/src/exceptions/NoTraitException.php on line 14

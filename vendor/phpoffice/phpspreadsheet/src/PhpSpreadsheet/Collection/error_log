@@ -1,0 +1,4 @@
+[03-Sep-2025 16:14:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\SimpleCache\CacheInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Collection/Memory.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Collection/Memory.php on line 14

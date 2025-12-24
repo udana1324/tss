@@ -1,0 +1,4 @@
+[14-Jul-2025 19:24:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Repository\RepositoryInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/AdapterRepository.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Repository/AdapterRepository.php on line 10

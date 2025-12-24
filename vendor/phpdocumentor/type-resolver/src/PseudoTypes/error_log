@@ -1,0 +1,56 @@
+[30-May-2025 07:59:44 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\String_" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NonEmptyString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NonEmptyString.php on line 25
+[30-May-2025 10:33:23 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\String_" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NumericString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NumericString.php on line 25
+[03-Jun-2025 07:55:33 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\String_" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/CallableString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/CallableString.php on line 25
+[05-Jun-2025 03:17:51 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\Boolean" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/False_.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/False_.php on line 27
+[05-Jun-2025 16:21:00 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\String_" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/HtmlEscapedString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/HtmlEscapedString.php on line 25
+[06-Jun-2025 18:06:11 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\Array_" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/List_.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/List_.php on line 27
+[07-Jun-2025 11:51:11 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\String_" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/TraitString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/TraitString.php on line 25
+[17-Jun-2025 05:35:33 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\String_" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/LiteralString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/LiteralString.php on line 25
+[17-Jun-2025 22:11:33 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\String_" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/LowercaseString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/LowercaseString.php on line 25
+[18-Jun-2025 00:41:05 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\String_" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NonEmptyLowercaseString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NonEmptyLowercaseString.php on line 25
+[18-Jun-2025 21:09:47 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\Integer" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NegativeInteger.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NegativeInteger.php on line 25
+[19-Jun-2025 12:52:44 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\AggregatedType" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/Numeric_.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/Numeric_.php on line 28
+[21-Jun-2025 23:52:56 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\Boolean" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/True_.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/True_.php on line 27
+[07-Jul-2025 11:38:56 UTC] PHP Fatal error:  Uncaught Error: Class "phpDocumentor\Reflection\Types\Integer" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/PositiveInteger.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoTypes/PositiveInteger.php on line 25

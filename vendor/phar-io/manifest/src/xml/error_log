@@ -1,0 +1,56 @@
+[24-May-2025 21:34:38 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/RequiresElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/RequiresElement.php on line 12
+[27-May-2025 16:19:43 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ElementCollection" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ExtElementCollection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ExtElementCollection.php on line 12
+[28-May-2025 07:37:03 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/PhpElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/PhpElement.php on line 12
+[30-May-2025 01:40:14 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/BundlesElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/BundlesElement.php on line 12
+[07-Jun-2025 07:12:56 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ElementCollection" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/AuthorElementCollection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/AuthorElementCollection.php on line 12
+[11-Jun-2025 08:20:25 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/AuthorElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/AuthorElement.php on line 12
+[12-Jun-2025 21:02:39 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/LicenseElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/LicenseElement.php on line 12
+[12-Jun-2025 22:57:54 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/LicenseElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/LicenseElement.php on line 12
+[15-Jun-2025 18:15:54 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ContainsElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ContainsElement.php on line 12
+[18-Jun-2025 03:54:04 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ComponentElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ComponentElement.php on line 12
+[11-Jul-2025 12:35:51 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ElementCollection" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ComponentElementCollection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ComponentElementCollection.php on line 12
+[30-Jul-2025 07:24:31 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ExtElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ExtElement.php on line 12
+[30-Jul-2025 09:11:36 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ExtElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ExtElement.php on line 12
+[20-Nov-2025 09:00:32 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ExtensionElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phar-io/manifest/src/xml/ExtensionElement.php on line 12

@@ -1,0 +1,12 @@
+[11-Apr-2025 18:05:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Transactions\TransactionHandler" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Transactions/DbTransactionHandler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Transactions/DbTransactionHandler.php on line 7
+[02-May-2025 23:57:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Transactions\TransactionHandler" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Transactions/NullTransactionHandler.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Transactions/NullTransactionHandler.php on line 5
+[22-May-2025 11:12:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Manager" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Transactions/TransactionManager.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Transactions/TransactionManager.php on line 8

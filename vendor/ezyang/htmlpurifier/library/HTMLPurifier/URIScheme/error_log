@@ -1,0 +1,36 @@
+[10-Mar-2025 03:33:49 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/mailto.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/mailto.php on line 12
+[10-Mar-2025 03:35:53 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/tel.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/tel.php on line 12
+[11-Mar-2025 21:41:00 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/news.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/news.php on line 6
+[21-Mar-2025 23:02:15 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme_http" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/https.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/https.php on line 6
+[25-Mar-2025 20:56:37 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/nntp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/nntp.php on line 6
+[28-Mar-2025 17:30:22 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php on line 6
+[01-Apr-2025 19:28:30 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/http.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/http.php on line 6
+[12-Apr-2025 17:06:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php on line 6
+[22-Apr-2025 06:39:07 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php on line 6

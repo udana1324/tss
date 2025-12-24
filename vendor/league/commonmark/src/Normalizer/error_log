@@ -1,0 +1,8 @@
+[21-Aug-2025 07:27:36 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Normalizer\TextNormalizerInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Normalizer/TextNormalizer.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Normalizer/TextNormalizer.php on line 23
+[13-Oct-2025 23:40:10 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Normalizer\UniqueSlugNormalizerInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Normalizer/UniqueSlugNormalizer.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Normalizer/UniqueSlugNormalizer.php on line 17

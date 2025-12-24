@@ -1,0 +1,12 @@
+[17-Apr-2025 10:58:23 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_DefinitionCache" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php on line 3
+[27-Apr-2025 14:02:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_DefinitionCache" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator.php on line 3
+[16-Jul-2025 13:27:18 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_DefinitionCache" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Null.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Null.php on line 6

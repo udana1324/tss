@@ -1,0 +1,4 @@
+[15-Jun-2025 14:21:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Foundation\ExceptionRenderer" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/ErrorPage/IgnitionExceptionRenderer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/ErrorPage/IgnitionExceptionRenderer.php on line 8

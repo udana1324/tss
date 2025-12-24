@@ -1,0 +1,8 @@
+[21-Dec-2024 17:09:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/psr/http-client/src/NetworkExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/psr/http-client/src/NetworkExceptionInterface.php on line 14
+[13-Sep-2025 04:56:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/psr/http-client/src/RequestExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/psr/http-client/src/RequestExceptionInterface.php on line 14

@@ -1,0 +1,4 @@
+[13-Apr-2025 10:50:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/tokohore/public_html/ajpm_v2/vendor/fideloper/proxy/src/TrustedProxyServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fideloper/proxy/src/TrustedProxyServiceProvider.php on line 9

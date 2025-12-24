@@ -1,0 +1,76 @@
+[01-Jan-2025 16:34:47 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/FinanceForecastController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/FinanceForecastController.php on line 20
+[05-Jan-2025 07:47:04 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLMotherAccountController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLMotherAccountController.php on line 17
+[10-Jan-2025 06:13:57 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/TaxSettingsController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/TaxSettingsController.php on line 20
+[22-Jan-2025 07:27:38 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLAccountLevelController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLAccountLevelController.php on line 17
+[22-Jan-2025 13:50:46 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/TaxSerialNumberController.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/TaxSerialNumberController.php on line 29
+[25-Jan-2025 21:12:05 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLAccountSettingsController.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLAccountSettingsController.php on line 23
+[26-Jan-2025 14:46:15 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLSubAccountController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLSubAccountController.php on line 19
+[28-Jan-2025 04:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/AccountReceiveableController.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/AccountReceiveableController.php on line 29
+[10-Mar-2025 16:33:33 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLMotherAccountController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLMotherAccountController.php on line 17
+[14-Mar-2025 09:37:54 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLAccountController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLAccountController.php on line 19
+[10-Apr-2025 22:08:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/AccountPayableController.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/AccountPayableController.php on line 29
+[24-Apr-2025 01:55:03 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/TaxSerialNumberController.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/TaxSerialNumberController.php on line 29
+[27-Apr-2025 11:13:28 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLSubAccountController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLSubAccountController.php on line 19
+[29-Apr-2025 08:54:55 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLSubAccountController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLSubAccountController.php on line 19
+[01-May-2025 08:55:14 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLSubAccountController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLSubAccountController.php on line 19
+[03-May-2025 08:55:50 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLSubAccountController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLSubAccountController.php on line 19
+[19-Aug-2025 05:18:54 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLAccountLevelController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/GLAccountLevelController.php on line 17
+[28-Aug-2025 06:56:42 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/FinanceForecastController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/FinanceForecastController.php on line 20
+[21-Sep-2025 23:14:12 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/AccountReceiveableController.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Accounting/AccountReceiveableController.php on line 29

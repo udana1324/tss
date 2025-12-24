@@ -1,0 +1,4 @@
+[06-Feb-2025 03:00:06 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/error-handler/BufferingLogger.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/error-handler/BufferingLogger.php on line 21

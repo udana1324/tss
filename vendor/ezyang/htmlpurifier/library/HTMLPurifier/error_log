@@ -1,0 +1,24 @@
+[24-Feb-2025 19:15:34 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParserException.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParserException.php on line 6
+[27-Feb-2025 03:43:48 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Definition" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLDefinition.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLDefinition.php on line 26
+[27-Feb-2025 12:09:32 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Definition" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIDefinition.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIDefinition.php on line 3
+[21-Mar-2025 21:03:01 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Definition" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/CSSDefinition.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/CSSDefinition.php on line 7
+[24-Jul-2025 21:06:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Definition" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLDefinition.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLDefinition.php on line 26
+[25-Jul-2025 06:58:54 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Definition" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIDefinition.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIDefinition.php on line 3

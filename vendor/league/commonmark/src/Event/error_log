@@ -1,0 +1,20 @@
+[18-Jul-2025 06:09:13 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Event\AbstractEvent" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Event/DocumentRenderedEvent.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Event/DocumentRenderedEvent.php on line 18
+[26-Jul-2025 02:54:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Event/AbstractEvent.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Event/AbstractEvent.php on line 30
+[26-Jul-2025 04:53:02 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Event\AbstractEvent" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Event/DocumentPreRenderEvent.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Event/DocumentPreRenderEvent.php on line 21
+[05-Aug-2025 03:31:39 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Event\AbstractEvent" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Event/DocumentPreParsedEvent.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Event/DocumentPreParsedEvent.php on line 22
+[01-Oct-2025 00:54:11 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Event\AbstractEvent" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Event/DocumentParsedEvent.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Event/DocumentParsedEvent.php on line 21

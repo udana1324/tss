@@ -1,0 +1,4 @@
+[24-May-2025 10:33:15 UTC] PHP Fatal error:  Uncaught Error: Class "Matrix\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Div0Exception.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/matrix/classes/src/Div0Exception.php on line 11

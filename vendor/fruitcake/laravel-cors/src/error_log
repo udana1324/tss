@@ -1,0 +1,8 @@
+[18-Jan-2025 18:30:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/tokohore/public_html/ajpm_v2/vendor/fruitcake/laravel-cors/src/CorsServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fruitcake/laravel-cors/src/CorsServiceProvider.php on line 10
+[13-Jun-2025 05:44:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/tokohore/public_html/ajpm_v2/vendor/fruitcake/laravel-cors/src/CorsServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fruitcake/laravel-cors/src/CorsServiceProvider.php on line 10

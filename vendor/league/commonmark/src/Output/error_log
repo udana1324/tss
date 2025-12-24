@@ -1,0 +1,4 @@
+[16-Oct-2025 21:28:09 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Output\RenderedContentInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Output/RenderedContent.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Output/RenderedContent.php on line 18

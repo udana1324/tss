@@ -1,0 +1,52 @@
+[08-Nov-2024 19:35:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockTransaction.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockTransaction.php on line 9
+[26-Nov-2024 05:08:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversionDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversionDetail.php on line 9
+[26-Nov-2024 20:44:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockIndex.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockIndex.php on line 10
+[27-Nov-2024 17:25:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversionDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversionDetail.php on line 9
+[28-Nov-2024 17:18:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversionDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversionDetail.php on line 9
+[02-Dec-2024 17:18:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversionDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversionDetail.php on line 9
+[02-Dec-2024 21:26:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockTransferDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockTransferDetail.php on line 9
+[14-Dec-2024 16:51:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversion.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversion.php on line 9
+[14-Dec-2024 18:05:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockTransfer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockTransfer.php on line 9
+[24-Dec-2024 01:20:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockAdjustment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockAdjustment.php on line 8
+[26-Mar-2025 18:55:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockTransfer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockTransfer.php on line 9
+[05-Apr-2025 21:33:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversionDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversionDetail.php on line 9
+[15-Sep-2025 05:29:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversion.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Stock/StockConversion.php on line 9

@@ -1,0 +1,8 @@
+[28-Jun-2025 07:57:24 UTC] PHP Fatal error:  Uncaught Error: Class "Facade\FlareClient\Http\Exceptions\BadResponseCode" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Http/Exceptions/NotFound.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Http/Exceptions/NotFound.php on line 7
+[02-Jul-2025 12:31:45 UTC] PHP Fatal error:  Uncaught Error: Class "Facade\FlareClient\Http\Exceptions\BadResponseCode" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Http/Exceptions/InvalidData.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Http/Exceptions/InvalidData.php on line 7

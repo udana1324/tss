@@ -1,0 +1,8 @@
+[06-Jan-2025 20:27:53 UTC] PHP Fatal error:  Uncaught Error: Class "Maatwebsite\Excel\Excel" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/config/excel.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/config/excel.php on line 164
+[07-Jul-2025 20:29:01 UTC] PHP Fatal error:  Uncaught Error: Class "Maatwebsite\Excel\Excel" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/config/excel.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/config/excel.php on line 164

@@ -1,0 +1,18 @@
+[29-Dec-2024 00:10:34 UTC] PHP Warning:  require(/home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/run.php on line 6
+[29-Dec-2024 00:10:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/run.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/run.php on line 6
+[13-Mar-2025 23:19:29 UTC] PHP Fatal error:  Uncaught Error: Class "FactoryFile" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/GlobalFunctionFile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/GlobalFunctionFile.php on line 7
+[10-Apr-2025 21:21:33 UTC] PHP Fatal error:  Uncaught Error: Class "FactoryFile" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/StaticMethodFile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/StaticMethodFile.php on line 7
+[29-Jul-2025 19:58:31 UTC] PHP Warning:  require(/home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/run.php on line 6
+[29-Jul-2025 19:58:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/run.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/generator/run.php on line 6

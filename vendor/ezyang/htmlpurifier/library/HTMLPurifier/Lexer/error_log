@@ -1,0 +1,8 @@
+[13-Apr-2025 01:51:55 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Lexer" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/DirectLex.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/DirectLex.php on line 13
+[01-May-2025 03:27:22 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Lexer_DOMLex" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/PH5P.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/PH5P.php on line 13

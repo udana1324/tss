@@ -1,0 +1,4 @@
+[02-Feb-2025 18:42:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Container\ContainerInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/service-contracts/ServiceProviderInterface.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/service-contracts/ServiceProviderInterface.php on line 22

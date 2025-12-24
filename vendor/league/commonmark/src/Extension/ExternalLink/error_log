@@ -1,0 +1,4 @@
+[05-Sep-2025 21:41:41 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Extension/ExternalLink/ExternalLinkExtension.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Extension/ExternalLink/ExternalLinkExtension.php on line 22

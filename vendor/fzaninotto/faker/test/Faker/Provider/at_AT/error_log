@@ -1,0 +1,4 @@
+[21-Aug-2025 08:32:12 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/test/Faker/Provider/at_AT/PaymentTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/test/Faker/Provider/at_AT/PaymentTest.php on line 9

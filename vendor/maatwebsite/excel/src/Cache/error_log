@@ -1,0 +1,20 @@
+[04-Feb-2025 22:46:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\SimpleCache\CacheInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cache/BatchCache.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cache/BatchCache.php on line 7
+[28-Feb-2025 20:11:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Manager" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cache/CacheManager.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cache/CacheManager.php on line 9
+[07-Apr-2025 14:39:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\SimpleCache\CacheInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cache/BatchCache.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cache/BatchCache.php on line 7
+[10-Apr-2025 23:13:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\SimpleCache\CacheInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cache/MemoryCache.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cache/MemoryCache.php on line 7
+[17-Oct-2025 23:56:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Manager" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cache/CacheManager.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cache/CacheManager.php on line 9

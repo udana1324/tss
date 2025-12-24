@@ -1,0 +1,12 @@
+[15-Jul-2025 08:50:16 UTC] PHP Fatal error:  Uncaught Error: Class "Facade\FlareClient\Context\ConsoleContext" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Context/LaravelConsoleContext.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Context/LaravelConsoleContext.php on line 7
+[29-Jul-2025 14:25:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\FlareClient\Context\ContextDetectorInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Context/LaravelContextDetector.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Context/LaravelContextDetector.php on line 10
+[31-Jul-2025 22:09:35 UTC] PHP Fatal error:  Uncaught Error: Class "Facade\FlareClient\Context\RequestContext" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Context/LaravelRequestContext.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Context/LaravelRequestContext.php on line 10

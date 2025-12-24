@@ -1,0 +1,12 @@
+[29-Apr-2025 06:56:36 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php on line 12
+[08-May-2025 07:48:39 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php on line 6
+[09-Aug-2025 01:41:21 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php on line 6

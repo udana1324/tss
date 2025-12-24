@@ -1,0 +1,8 @@
+[04-Jan-2025 05:43:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Request" not found in /home/tokohore/public_html/ajpm_v2/vendor/fideloper/proxy/config/trustedproxy.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fideloper/proxy/config/trustedproxy.php on line 48
+[10-Mar-2025 03:05:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Request" not found in /home/tokohore/public_html/ajpm_v2/vendor/fideloper/proxy/config/trustedproxy.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fideloper/proxy/config/trustedproxy.php on line 48

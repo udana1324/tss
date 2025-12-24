@@ -1,0 +1,16 @@
+[19-Jun-2025 17:44:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_KeyCache_KeyCacheInputStream" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php on line 16
+[08-Jul-2025 14:04:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_KeyCache" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php on line 16
+[24-Jul-2025 11:40:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_KeyCache" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/NullKeyCache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/NullKeyCache.php on line 16
+[17-Aug-2025 05:08:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_InputByteStream" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/KeyCacheInputStream.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/KeyCacheInputStream.php on line 16

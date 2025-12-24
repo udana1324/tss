@@ -1,0 +1,12 @@
+[30-Jul-2025 11:36:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Encoder" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php on line 16
+[18-Aug-2025 19:18:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Encoder" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php on line 16
+[03-Sep-2025 17:28:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Encoder" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php on line 18

@@ -1,0 +1,16 @@
+[28-Aug-2025 02:45:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/test/Faker/Provider/en_ZA/PhoneNumberTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/test/Faker/Provider/en_ZA/PhoneNumberTest.php on line 9
+[28-Aug-2025 13:35:59 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/test/Faker/Provider/en_ZA/PersonTest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/test/Faker/Provider/en_ZA/PersonTest.php on line 10
+[31-Aug-2025 23:51:25 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/test/Faker/Provider/en_ZA/InternetTest.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/test/Faker/Provider/en_ZA/InternetTest.php on line 11
+[03-Nov-2025 22:56:35 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/test/Faker/Provider/en_ZA/CompanyTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/fzaninotto/faker/test/Faker/Provider/en_ZA/CompanyTest.php on line 9

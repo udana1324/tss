@@ -1,0 +1,44 @@
+[24-Jan-2025 11:38:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[25-Jan-2025 10:24:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/ServerBag.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/ServerBag.php on line 21
+[26-Jan-2025 01:49:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[26-Jan-2025 02:44:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/JsonResponse.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/JsonResponse.php on line 25
+[26-Jan-2025 21:53:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpFoundation\RequestMatcherInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/RequestMatcher.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/RequestMatcher.php on line 19
+[27-Jan-2025 07:21:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/RedirectResponse.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/RedirectResponse.php on line 19
+[27-Jan-2025 22:52:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\RequestMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/ExpressionRequestMatcher.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/ExpressionRequestMatcher.php on line 21
+[28-Jan-2025 10:58:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/InputBag.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/InputBag.php on line 21
+[29-Jan-2025 09:48:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/JsonResponse.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/JsonResponse.php on line 25
+[29-Jan-2025 17:48:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/BinaryFileResponse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/BinaryFileResponse.php on line 26
+[30-Jan-2025 08:54:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/symfony/http-foundation/FileBag.php on line 22

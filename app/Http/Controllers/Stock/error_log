@@ -1,0 +1,28 @@
+[12-Jan-2025 06:51:25 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockTransferController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockTransferController.php on line 24
+[17-Jan-2025 10:51:00 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockController.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockController.php on line 38
+[29-Jan-2025 22:27:34 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockConversionController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockConversionController.php on line 24
+[30-Jan-2025 12:06:07 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockIndexController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockIndexController.php on line 17
+[11-Sep-2025 06:52:28 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockController.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockController.php on line 38
+[23-Sep-2025 14:42:24 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockIndexController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockIndexController.php on line 17
+[21-Oct-2025 06:37:23 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockConversionController.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Stock/StockConversionController.php on line 24

@@ -1,0 +1,12 @@
+[11-Jul-2025 12:22:37 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CliParser\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/cli-parser/src/exceptions/AmbiguousOptionException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/cli-parser/src/exceptions/AmbiguousOptionException.php on line 15
+[25-Jul-2025 12:24:40 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CliParser\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/cli-parser/src/exceptions/RequiredOptionArgumentMissingException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/cli-parser/src/exceptions/RequiredOptionArgumentMissingException.php on line 15
+[25-Jul-2025 14:53:00 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CliParser\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/cli-parser/src/exceptions/OptionDoesNotAllowArgumentException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/cli-parser/src/exceptions/OptionDoesNotAllowArgumentException.php on line 15

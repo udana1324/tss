@@ -1,0 +1,36 @@
+[25-Dec-2024 09:40:01 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductSpecificationController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductSpecificationController.php on line 17
+[26-Dec-2024 14:45:09 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductBrandController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductBrandController.php on line 17
+[31-Dec-2024 17:12:10 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductController.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductController.php on line 40
+[12-Jan-2025 19:13:36 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductUnitController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductUnitController.php on line 18
+[02-Feb-2025 14:35:15 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductCategoryController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductCategoryController.php on line 17
+[23-Aug-2025 17:46:11 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductSpecificationController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductSpecificationController.php on line 17
+[26-Sep-2025 13:23:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductCategoryController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductCategoryController.php on line 17
+[18-Oct-2025 13:37:07 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductBrandController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductBrandController.php on line 17
+[22-Oct-2025 17:01:05 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductController.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Product/ProductController.php on line 40

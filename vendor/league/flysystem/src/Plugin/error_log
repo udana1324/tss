@@ -1,0 +1,32 @@
+[22-Apr-2025 13:24:29 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Flysystem\PluginInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/AbstractPlugin.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/AbstractPlugin.php on line 8
+[26-Apr-2025 11:55:28 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Plugin\AbstractPlugin" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/GetWithMetadata.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/GetWithMetadata.php on line 8
+[03-May-2025 13:07:10 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Plugin\AbstractPlugin" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/ForcedCopy.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/ForcedCopy.php on line 8
+[03-May-2025 15:21:20 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Plugin\AbstractPlugin" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/ListPaths.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/ListPaths.php on line 5
+[07-May-2025 18:56:22 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Plugin\AbstractPlugin" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/ListFiles.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/ListFiles.php on line 5
+[10-May-2025 04:46:53 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Plugin\AbstractPlugin" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/ForcedRename.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/ForcedRename.php on line 8
+[12-May-2025 05:21:47 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Plugin\AbstractPlugin" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/ListWith.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/ListWith.php on line 5
+[13-May-2025 06:37:03 UTC] PHP Fatal error:  Uncaught Error: Class "League\Flysystem\Plugin\AbstractPlugin" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/EmptyDir.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/flysystem/src/Plugin/EmptyDir.php on line 5

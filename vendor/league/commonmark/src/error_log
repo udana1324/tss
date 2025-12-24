@@ -1,0 +1,12 @@
+[13-Jun-2025 05:08:58 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\MarkdownConverter" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/GithubFlavoredMarkdownConverter.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/GithubFlavoredMarkdownConverter.php on line 23
+[23-Jun-2025 08:53:12 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\MarkdownConverter" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/CommonMarkConverter.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/CommonMarkConverter.php on line 25
+[12-Jul-2025 19:02:13 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\ConverterInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/MarkdownConverter.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/MarkdownConverter.php on line 23

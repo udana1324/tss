@@ -1,0 +1,36 @@
+[12-Jun-2025 07:40:51 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/SimpleType.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/SimpleType.php on line 14
+[19-Jun-2025 14:06:02 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/VoidType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/VoidType.php on line 12
+[19-Jun-2025 19:49:42 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/IntersectionType.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/IntersectionType.php on line 18
+[29-Jun-2025 02:03:38 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/GenericObjectType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/GenericObjectType.php on line 12
+[08-Jul-2025 21:16:49 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/NeverType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/NeverType.php on line 12
+[13-Jul-2025 06:12:10 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/FalseType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/FalseType.php on line 12
+[15-Jul-2025 09:46:33 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/UnionType.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/UnionType.php on line 16
+[24-Aug-2025 05:54:00 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/IterableType.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/IterableType.php on line 18
+[02-Sep-2025 00:08:01 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/StaticType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/type/src/type/StaticType.php on line 12

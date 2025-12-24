@@ -1,0 +1,8 @@
+[13-May-2025 18:00:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/IgnitionServiceProvider.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/IgnitionServiceProvider.php on line 80
+[15-May-2025 21:51:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Support\Arrayable" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/IgnitionConfig.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/IgnitionConfig.php on line 8

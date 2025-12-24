@@ -1,0 +1,4 @@
+[22-May-2025 11:06:43 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\ObjectReflector\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/object-reflector/src/InvalidArgumentException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/object-reflector/src/InvalidArgumentException.php on line 12

@@ -1,0 +1,8 @@
+[21-Jul-2025 07:51:56 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\DocumentRendererInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Renderer/HtmlRenderer.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Renderer/HtmlRenderer.php on line 28
+[31-Aug-2025 21:23:23 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Renderer/HtmlDecorator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Renderer/HtmlDecorator.php on line 19

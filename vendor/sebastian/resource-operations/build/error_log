@@ -1,0 +1,1 @@
+[16-May-2025 06:42:36 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home/tokohore/public_html/ajpm_v2/vendor/sebastian/resource-operations/build/generate.php on line 2

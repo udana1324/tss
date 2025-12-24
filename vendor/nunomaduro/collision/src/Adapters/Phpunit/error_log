@@ -1,0 +1,4 @@
+[23-May-2025 10:14:36 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\ResultPrinter" not found in /home/tokohore/public_html/ajpm_v2/vendor/nunomaduro/collision/src/Adapters/Phpunit/Printer.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nunomaduro/collision/src/Adapters/Phpunit/Printer.php on line 21

@@ -1,0 +1,44 @@
+[09-Aug-2025 21:25:03 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\IComparable" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Supervisor.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Supervisor.php on line 9
+[10-Aug-2025 22:49:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Style\Supervisor" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Color.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Color.php on line 5
+[15-Aug-2025 23:05:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Style\Supervisor" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Border.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Border.php on line 7
+[16-Aug-2025 18:51:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Style\Supervisor" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Borders.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Borders.php on line 7
+[21-Aug-2025 09:43:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Style\Supervisor" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Protection.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Protection.php on line 5
+[25-Aug-2025 22:47:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Style\Supervisor" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Style.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Style.php on line 8
+[04-Sep-2025 00:03:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Style\Supervisor" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Fill.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Fill.php on line 5
+[04-Sep-2025 12:27:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Style\Supervisor" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Alignment.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Alignment.php on line 7
+[08-Sep-2025 03:13:44 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\IComparable" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Conditional.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Conditional.php on line 8
+[12-Sep-2025 17:41:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Style\Supervisor" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/NumberFormat.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/NumberFormat.php on line 5
+[14-Sep-2025 18:22:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Style\Supervisor" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Font.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Style/Font.php on line 5

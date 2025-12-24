@@ -1,0 +1,16 @@
+[06-Jul-2025 05:39:33 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\NodeTraverserInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeTraverser.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeTraverser.php on line 5
+[09-Jul-2025 07:35:36 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeAbstract.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeAbstract.php on line 5
+[16-Jul-2025 03:41:41 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\NodeVisitor" not found in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitorAbstract.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/NodeVisitorAbstract.php on line 8
+[23-Jul-2025 13:03:35 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Parser" not found in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php on line 27

@@ -1,0 +1,12 @@
+[08-Apr-2025 11:50:37 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Config\MutableConfigurationInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/config/src/ConfigurationBuilderInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/config/src/ConfigurationBuilderInterface.php on line 19
+[23-Apr-2025 20:58:58 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Config\ConfigurationInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/config/src/ReadOnlyConfiguration.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/config/src/ReadOnlyConfiguration.php on line 19
+[05-Jun-2025 08:22:09 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Config\ConfigurationBuilderInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/config/src/Configuration.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/config/src/Configuration.php on line 27

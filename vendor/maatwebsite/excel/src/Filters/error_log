@@ -1,0 +1,8 @@
+[12-Apr-2025 04:53:51 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\Reader\IReadFilter" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Filters/LimitFilter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Filters/LimitFilter.php on line 7
+[04-May-2025 00:16:20 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\Reader\IReadFilter" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Filters/ChunkReadFilter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Filters/ChunkReadFilter.php on line 7

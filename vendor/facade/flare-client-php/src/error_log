@@ -1,0 +1,2 @@
+[03-Apr-2025 06:05:29 UTC] PHP Fatal error:  Trait "Facade\FlareClient\Concerns\UsesTime" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Report.php on line 16
+[26-Apr-2025 08:35:41 UTC] PHP Fatal error:  Trait "Facade\FlareClient\Concerns\HasContext" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Flare.php on line 22

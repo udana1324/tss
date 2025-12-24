@@ -1,0 +1,4 @@
+[22-Jun-2025 15:39:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Laravel\SerializableClosure\Contracts\Signer" not found in /home/tokohore/public_html/ajpm_v2/vendor/laravel/serializable-closure/src/Signers/Hmac.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/laravel/serializable-closure/src/Signers/Hmac.php on line 7

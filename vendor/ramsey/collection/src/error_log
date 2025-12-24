@@ -1,0 +1,44 @@
+[22-Jan-2025 19:35:41 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractSet" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/Set.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/Set.php on line 41
+[24-Jan-2025 05:52:01 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractArray" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/GenericArray.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/GenericArray.php on line 22
+[25-Jan-2025 07:12:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\ArrayInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/AbstractArray.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/AbstractArray.php on line 30
+[05-Apr-2025 17:01:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\ArrayInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/QueueInterface.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/QueueInterface.php on line 99
+[10-Apr-2025 06:07:38 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractArray" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/AbstractCollection.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/AbstractCollection.php on line 49
+[12-Apr-2025 06:04:58 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\Queue" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/DoubleEndedQueue.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/DoubleEndedQueue.php on line 28
+[18-Apr-2025 09:41:19 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractCollection" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/Collection.php:76
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/Collection.php on line 76
+[23-Apr-2025 02:46:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\QueueInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/DoubleEndedQueueInterface.php:165
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/DoubleEndedQueueInterface.php on line 165
+[02-May-2025 12:11:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\ArrayInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/CollectionInterface.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/CollectionInterface.php on line 26
+[04-May-2025 09:05:29 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractCollection" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/AbstractSet.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/AbstractSet.php on line 25
+[19-Aug-2025 10:08:05 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractSet" not found in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/Set.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ramsey/collection/src/Set.php on line 41

@@ -1,0 +1,30 @@
+[14-Jan-2025 03:47:11 UTC] PHP Warning:  include(/home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testOperations.php on line 6
+[14-Jan-2025 03:47:11 UTC] PHP Warning:  include(): Failed opening '/home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testOperations.php on line 6
+[14-Jan-2025 03:47:11 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testOperations.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testOperations.php on line 9
+[27-Jan-2025 07:20:10 UTC] PHP Warning:  include(/home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testFunctions.php on line 5
+[27-Jan-2025 07:20:10 UTC] PHP Warning:  include(): Failed opening '/home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testFunctions.php on line 5
+[27-Jan-2025 07:20:10 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testFunctions.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testFunctions.php on line 43
+[28-Jan-2025 13:21:28 UTC] PHP Warning:  include(/home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/complexTest.php on line 5
+[28-Jan-2025 13:21:28 UTC] PHP Warning:  include(): Failed opening '/home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/complexTest.php on line 5
+[28-Jan-2025 13:21:28 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/complexTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/complexTest.php on line 9
+[17-Apr-2025 14:14:19 UTC] PHP Warning:  include(/home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testOperations.php on line 6
+[17-Apr-2025 14:14:19 UTC] PHP Warning:  include(): Failed opening '/home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testOperations.php on line 6
+[17-Apr-2025 14:14:19 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testOperations.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/testOperations.php on line 9
+[20-Oct-2025 02:45:50 UTC] PHP Warning:  include(/home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/complexTest.php on line 5
+[20-Oct-2025 02:45:50 UTC] PHP Warning:  include(): Failed opening '/home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/complexTest.php on line 5
+[20-Oct-2025 02:45:50 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/complexTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/markbaker/complex/examples/complexTest.php on line 9

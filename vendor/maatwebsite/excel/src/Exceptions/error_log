@@ -1,0 +1,36 @@
+[19-Jan-2025 04:36:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Exceptions\LaravelExcelException" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/NoFilenameGivenException.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/NoFilenameGivenException.php on line 8
+[15-Feb-2025 13:12:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Exceptions\LaravelExcelException" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/SheetNotFoundException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/SheetNotFoundException.php on line 5
+[02-Mar-2025 05:17:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Exceptions\LaravelExcelException" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/NoTypeDetectedException.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/NoTypeDetectedException.php on line 8
+[02-Mar-2025 10:51:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Exceptions\LaravelExcelException" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/UnreadableFileException.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/UnreadableFileException.php on line 8
+[15-Mar-2025 02:29:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Exceptions\LaravelExcelException" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/NoFilePathGivenException.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/NoFilePathGivenException.php on line 8
+[14-Apr-2025 22:38:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Exceptions\LaravelExcelException" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/ConcernConflictException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/ConcernConflictException.php on line 7
+[28-Apr-2025 16:26:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Exceptions\LaravelExcelException" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/NoTypeDetectedException.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/NoTypeDetectedException.php on line 8
+[12-May-2025 21:31:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Exceptions\LaravelExcelException" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/SheetNotFoundException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/SheetNotFoundException.php on line 5
+[16-Sep-2025 00:58:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Exceptions\LaravelExcelException" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/NoFilenameGivenException.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Exceptions/NoFilenameGivenException.php on line 8

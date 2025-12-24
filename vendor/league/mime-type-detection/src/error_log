@@ -1,0 +1,24 @@
+[23-Jul-2025 21:14:22 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[16-Aug-2025 16:36:43 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[20-Aug-2025 09:46:56 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[13-Sep-2025 15:23:50 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[17-Sep-2025 14:10:00 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[21-Oct-2025 03:13:49 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php on line 7

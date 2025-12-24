@@ -1,0 +1,8 @@
+[19-Aug-2025 05:38:17 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\TypeSafeMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Number/OrderingComparison.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Number/OrderingComparison.php on line 11
+[03-Sep-2025 19:27:18 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\TypeSafeMatcher" not found in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Number/IsCloseTo.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Number/IsCloseTo.php on line 14

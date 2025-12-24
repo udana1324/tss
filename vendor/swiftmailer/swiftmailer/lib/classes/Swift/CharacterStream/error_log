@@ -1,0 +1,4 @@
+[14-Aug-2025 05:13:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_CharacterStream" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php on line 16

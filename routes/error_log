@@ -1,0 +1,68 @@
+[11-Oct-2024 06:50:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/tokohore/public_html/ajpm_v2/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/channels.php on line 16
+[12-Oct-2024 10:48:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/tokohore/public_html/ajpm_v2/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/console.php on line 17
+[20-Oct-2024 11:55:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/tokohore/public_html/ajpm_v2/routes/web.php:81
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/web.php on line 81
+[04-Dec-2024 21:57:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/tokohore/public_html/ajpm_v2/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/channels.php on line 16
+[05-Dec-2024 21:20:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/tokohore/public_html/ajpm_v2/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/console.php on line 17
+[08-Jan-2025 22:25:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/tokohore/public_html/ajpm_v2/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/console.php on line 17
+[09-Jan-2025 02:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/tokohore/public_html/ajpm_v2/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/channels.php on line 16
+[09-Jan-2025 14:59:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/tokohore/public_html/ajpm_v2/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/api.php on line 17
+[10-Jan-2025 06:06:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/tokohore/public_html/ajpm_v2/routes/web.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/web.php on line 82
+[13-Apr-2025 05:46:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/tokohore/public_html/ajpm_v2/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/api.php on line 17
+[13-Apr-2025 20:35:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/tokohore/public_html/ajpm_v2/routes/web.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/web.php on line 82
+[15-Apr-2025 17:00:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/tokohore/public_html/ajpm_v2/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/console.php on line 17
+[15-Apr-2025 20:59:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/tokohore/public_html/ajpm_v2/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/channels.php on line 16
+[08-Aug-2025 19:38:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/tokohore/public_html/ajpm_v2/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/channels.php on line 16
+[09-Aug-2025 18:32:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/tokohore/public_html/ajpm_v2/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/console.php on line 17
+[18-Aug-2025 07:28:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/tokohore/public_html/ajpm_v2/routes/web.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/web.php on line 82
+[02-Oct-2025 08:24:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/tokohore/public_html/ajpm_v2/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/routes/api.php on line 17

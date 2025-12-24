@@ -1,0 +1,4 @@
+[30-Jun-2025 10:52:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Facade" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Facades/Flare.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Facades/Flare.php on line 17

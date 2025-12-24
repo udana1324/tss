@@ -1,0 +1,8 @@
+[06-Jul-2025 11:14:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Store\StoreInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Store/FileStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 10
+[07-Jul-2025 11:37:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Dotenv\Store\StoreInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Store/StringStore.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/vlucas/phpdotenv/src/Store/StringStore.php on line 7

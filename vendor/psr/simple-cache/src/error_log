@@ -1,0 +1,4 @@
+[11-Apr-2025 14:45:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\SimpleCache\CacheException" not found in /home/tokohore/public_html/ajpm_v2/vendor/psr/simple-cache/src/InvalidArgumentException.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/psr/simple-cache/src/InvalidArgumentException.php on line 11

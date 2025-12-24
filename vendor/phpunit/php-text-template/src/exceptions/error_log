@@ -1,0 +1,12 @@
+[02-Feb-2025 13:23:00 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Template\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpunit/php-text-template/src/exceptions/InvalidArgumentException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpunit/php-text-template/src/exceptions/InvalidArgumentException.php on line 12
+[28-Mar-2025 02:54:02 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Template\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpunit/php-text-template/src/exceptions/RuntimeException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpunit/php-text-template/src/exceptions/RuntimeException.php on line 14
+[31-Jul-2025 13:50:31 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Template\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpunit/php-text-template/src/exceptions/InvalidArgumentException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpunit/php-text-template/src/exceptions/InvalidArgumentException.php on line 12

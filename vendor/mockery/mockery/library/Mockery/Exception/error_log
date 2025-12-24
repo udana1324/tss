@@ -1,0 +1,12 @@
+[17-May-2025 13:38:29 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php on line 26
+[03-Jun-2025 16:50:02 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 25
+[26-Jun-2025 18:56:08 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 25

@@ -1,0 +1,4 @@
+[10-Jul-2025 12:09:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\View\Compilers\BladeCompiler" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Views/Compilers/BladeSourceMapCompiler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/src/Views/Compilers/BladeSourceMapCompiler.php on line 8

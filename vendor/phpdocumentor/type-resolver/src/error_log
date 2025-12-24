@@ -1,0 +1,4 @@
+[09-Mar-2025 11:58:49 UTC] PHP Fatal error:  Uncaught Error: Interface "phpDocumentor\Reflection\Type" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoType.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpdocumentor/type-resolver/src/PseudoType.php on line 16

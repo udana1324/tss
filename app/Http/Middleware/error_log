@@ -1,0 +1,72 @@
+[19-Nov-2024 12:02:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/CheckForMaintenanceMode.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/CheckForMaintenanceMode.php on line 7
+[19-Nov-2024 21:18:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[20-Nov-2024 20:08:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/Authenticate.php on line 7
+[21-Nov-2024 20:34:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/EncryptCookies.php on line 7
+[30-Nov-2024 07:01:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrimStrings.php on line 7
+[01-Dec-2024 22:11:26 UTC] PHP Fatal error:  Uncaught Error: Class "Fideloper\Proxy\TrustProxies" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrustProxies.php on line 8
+[28-Feb-2025 09:39:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/Authenticate.php on line 7
+[13-Apr-2025 03:46:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/EncryptCookies.php on line 7
+[14-Apr-2025 02:58:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/CheckForMaintenanceMode.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/CheckForMaintenanceMode.php on line 7
+[18-Apr-2025 06:16:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrimStrings.php on line 7
+[18-Apr-2025 12:11:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/Authenticate.php on line 7
+[19-Apr-2025 03:02:29 UTC] PHP Fatal error:  Uncaught Error: Class "Fideloper\Proxy\TrustProxies" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrustProxies.php on line 8
+[19-Apr-2025 03:42:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Apr-2025 08:44:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/CheckForMaintenanceMode.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/CheckForMaintenanceMode.php on line 7
+[21-Jun-2025 15:22:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/EncryptCookies.php on line 7
+[03-Aug-2025 10:01:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrimStrings.php on line 7
+[02-Sep-2025 07:23:42 UTC] PHP Fatal error:  Uncaught Error: Class "Fideloper\Proxy\TrustProxies" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/TrustProxies.php on line 8
+[16-Oct-2025 11:58:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Middleware/VerifyCsrfToken.php on line 7

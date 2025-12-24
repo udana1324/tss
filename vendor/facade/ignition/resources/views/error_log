@@ -1,0 +1,11 @@
+[09-May-2025 23:55:29 UTC] PHP Warning:  Undefined variable $config in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/resources/views/errorPage.php on line 2
+[09-May-2025 23:55:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/resources/views/errorPage.php on line 2
+[09-May-2025 23:55:29 UTC] PHP Warning:  Undefined variable $throwableString in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/resources/views/errorPage.php on line 4
+[09-May-2025 23:55:29 UTC] PHP Warning:  Undefined variable $title in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/resources/views/errorPage.php on line 20
+[09-May-2025 23:55:29 UTC] PHP Warning:  Undefined variable $styles in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/resources/views/errorPage.php on line 22
+[09-May-2025 23:55:29 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/resources/views/errorPage.php on line 22
+[09-May-2025 23:55:29 UTC] PHP Warning:  Undefined variable $jsonEncode in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/resources/views/errorPage.php on line 31
+[09-May-2025 23:55:29 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/resources/views/errorPage.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/ignition/resources/views/errorPage.php on line 31

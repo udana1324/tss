@@ -1,0 +1,72 @@
+[30-May-2025 14:02:46 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Transport_FailoverTransport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php on line 16
+[03-Jun-2025 08:44:28 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Transport_SendmailTransport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SendmailTransport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SendmailTransport.php on line 16
+[05-Jun-2025 03:27:18 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_EmbeddedFile" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Image.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Image.php on line 16
+[08-Jun-2025 05:55:44 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Transport_SpoolTransport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php on line 16
+[08-Jun-2025 08:25:30 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_SwiftException" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyException.php on line 16
+[10-Jun-2025 03:18:14 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_IoException" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/TransportException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/TransportException.php on line 16
+[10-Jun-2025 22:44:47 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Mime_SimpleMessage" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php on line 16
+[16-Jun-2025 13:27:38 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Transport_NullTransport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/NullTransport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/NullTransport.php on line 16
+[20-Jun-2025 07:29:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Mime_CharsetObserver" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder.php on line 16
+[25-Jun-2025 02:47:23 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Transport_EsmtpTransport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 23
+[27-Jun-2025 02:29:21 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Mime_MimePart" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MimePart.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MimePart.php on line 16
+[27-Jun-2025 04:18:07 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_ConfigurableSpool" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php on line 17
+[11-Jul-2025 07:42:44 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Transport_LoadBalancedTransport" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php on line 16
+[16-Jul-2025 20:13:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_OutputByteStream" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileStream.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileStream.php on line 16
+[20-Jul-2025 04:09:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Spool" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MemorySpool.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MemorySpool.php on line 16
+[10-Aug-2025 18:53:06 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_SwiftException" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/RfcComplianceException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/RfcComplianceException.php on line 16
+[14-Aug-2025 08:10:10 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Mime_EmbeddedFile" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php on line 16
+[10-Sep-2025 07:36:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Spool" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ConfigurableSpool.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ConfigurableSpool.php on line 16

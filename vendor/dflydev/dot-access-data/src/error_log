@@ -1,0 +1,4 @@
+[03-Mar-2025 00:31:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Dflydev\DotAccessData\DataInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/dflydev/dot-access-data/src/Data.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/dflydev/dot-access-data/src/Data.php on line 24

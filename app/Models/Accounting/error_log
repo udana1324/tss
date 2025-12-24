@@ -1,0 +1,168 @@
+[29-Nov-2024 16:43:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableCost.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableCost.php on line 9
+[30-Nov-2024 16:36:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLSubAccount.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLSubAccount.php on line 9
+[03-Dec-2024 01:18:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableDetail.php on line 9
+[03-Dec-2024 09:44:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccountSettingsDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccountSettingsDetail.php on line 9
+[03-Dec-2024 11:05:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/SalesTaxInvoiceDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/SalesTaxInvoiceDetail.php on line 9
+[03-Dec-2024 16:21:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableBalance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableBalance.php on line 9
+[05-Dec-2024 10:37:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/SalesTaxInvoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/SalesTaxInvoice.php on line 9
+[05-Dec-2024 16:27:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLKasBankDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLKasBankDetail.php on line 9
+[06-Dec-2024 05:18:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayableCost.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayableCost.php on line 9
+[07-Dec-2024 04:16:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccount.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccount.php on line 9
+[11-Dec-2024 10:23:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLMotherAccount.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLMotherAccount.php on line 9
+[11-Dec-2024 18:03:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLKasBank.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLKasBank.php on line 9
+[11-Dec-2024 23:05:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSettingsPPN.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSettingsPPN.php on line 9
+[14-Dec-2024 04:15:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveable.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveable.php on line 9
+[14-Dec-2024 23:12:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayableDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayableDetail.php on line 9
+[17-Dec-2024 02:56:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayable.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayable.php on line 9
+[21-Dec-2024 18:27:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccountSettings.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccountSettings.php on line 9
+[24-Dec-2024 03:37:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLKasBankTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLKasBankTerms.php on line 8
+[24-Dec-2024 08:17:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSettings.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSettings.php on line 9
+[26-Dec-2024 12:19:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccountLevel.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccountLevel.php on line 9
+[28-Dec-2024 11:45:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSerialNumber.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSerialNumber.php on line 9
+[01-Jan-2025 21:55:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLJournal.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLJournal.php on line 9
+[07-Mar-2025 02:03:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayableBalance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayableBalance.php on line 9
+[23-Mar-2025 21:24:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLMotherAccount.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLMotherAccount.php on line 9
+[23-Mar-2025 23:32:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLKasBank.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLKasBank.php on line 9
+[28-Mar-2025 00:01:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayable.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayable.php on line 9
+[08-May-2025 15:21:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/SalesTaxInvoiceDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/SalesTaxInvoiceDetail.php on line 9
+[10-May-2025 12:44:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLKasBankDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLKasBankDetail.php on line 9
+[12-May-2025 21:21:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccount.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccount.php on line 9
+[09-Jun-2025 09:55:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayableCost.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayableCost.php on line 9
+[18-Jul-2025 16:09:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSettingsPPN.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSettingsPPN.php on line 9
+[22-Jul-2025 13:01:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayableDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountPayableDetail.php on line 9
+[26-Jul-2025 12:24:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveable.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveable.php on line 9
+[27-Jul-2025 13:43:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSettings.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSettings.php on line 9
+[27-Jul-2025 20:23:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccountLevel.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccountLevel.php on line 9
+[03-Aug-2025 18:53:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableCost.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableCost.php on line 9
+[04-Aug-2025 16:32:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLSubAccount.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLSubAccount.php on line 9
+[06-Aug-2025 22:40:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableDetail.php on line 9
+[25-Aug-2025 07:39:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSerialNumber.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/TaxSerialNumber.php on line 9
+[28-Aug-2025 20:56:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLJournal.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLJournal.php on line 9
+[02-Oct-2025 07:27:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableBalance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/AccountReceiveableBalance.php on line 9
+[30-Oct-2025 15:02:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccountSettingsDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Accounting/GLAccountSettingsDetail.php on line 9

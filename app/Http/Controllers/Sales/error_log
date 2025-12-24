@@ -1,0 +1,68 @@
+[12-Dec-2024 15:49:17 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesReturnItemController.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesReturnItemController.php on line 51
+[15-Dec-2024 07:45:39 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/ExpeditionCostController.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/ExpeditionCostController.php on line 29
+[25-Dec-2024 12:12:24 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/RekapPenjualanController.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/RekapPenjualanController.php on line 43
+[31-Dec-2024 06:25:26 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/QuotationController.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/QuotationController.php on line 36
+[06-Jan-2025 17:23:47 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesInvoiceController.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesInvoiceController.php on line 44
+[09-Jan-2025 07:33:45 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesReturnController.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesReturnController.php on line 51
+[11-Jan-2025 22:57:49 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesOrderController.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesOrderController.php on line 53
+[12-Jan-2025 08:49:50 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesInvoiceCollectionController.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesInvoiceCollectionController.php on line 39
+[02-Feb-2025 16:12:04 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/DeliveryController.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/DeliveryController.php on line 46
+[14-Mar-2025 08:36:42 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesOrderInternalController.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesOrderInternalController.php on line 53
+[17-May-2025 04:37:11 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesReturnItemController.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesReturnItemController.php on line 51
+[25-May-2025 09:34:40 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/RekapPenjualanController.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/RekapPenjualanController.php on line 43
+[10-Jul-2025 06:20:44 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesReturnController.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesReturnController.php on line 51
+[12-Jul-2025 18:55:38 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesOrderController.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/SalesOrderController.php on line 53
+[01-Aug-2025 02:23:42 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/DeliveryController.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/DeliveryController.php on line 46
+[18-Aug-2025 14:57:42 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/ExpeditionCostController.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/ExpeditionCostController.php on line 29
+[24-Sep-2025 04:08:07 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/QuotationController.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Sales/QuotationController.php on line 36

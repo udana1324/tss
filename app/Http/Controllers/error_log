@@ -1,0 +1,16 @@
+[28-Nov-2024 10:11:22 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/MainController.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/MainController.php on line 26
+[03-Dec-2024 07:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Controller.php on line 10
+[02-Feb-2025 17:48:35 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/MainController.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/MainController.php on line 26
+[19-Feb-2025 04:53:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Controller" not found in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Http/Controllers/Controller.php on line 10

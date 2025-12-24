@@ -1,0 +1,4 @@
+[03-Sep-2025 00:23:56 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Renderer/Inline/TextRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/league/commonmark/src/Renderer/Inline/TextRenderer.php on line 26

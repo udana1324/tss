@@ -1,0 +1,12 @@
+[10-Aug-2025 03:58:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_CharacterReader" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php on line 17
+[19-Aug-2025 10:37:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_CharacterReader" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php on line 17
+[14-Oct-2025 10:01:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_CharacterReader" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php on line 16

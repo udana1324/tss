@@ -1,0 +1,4 @@
+[12-Apr-2025 11:16:05 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Exception" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Exception.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Exception.php on line 6

@@ -1,0 +1,24 @@
+[24-Dec-2024 20:37:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/DefaultValueBinder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/DefaultValueBinder.php on line 8
+[29-Dec-2024 05:47:26 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\DelegatedMacroable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Sheet.php on line 62
+[06-Jan-2025 08:41:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/ExcelServiceProvider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/ExcelServiceProvider.php on line 18
+[09-Jan-2025 16:30:13 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\DelegatedMacroable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Reader.php on line 33
+[12-Jan-2025 06:28:52 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\DelegatedMacroable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Writer.php on line 21
+[19-Jan-2025 02:57:22 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\DelegatedMacroable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Row.php on line 11
+[26-Jan-2025 03:48:22 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Importable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/HeadingRowImport.php on line 11
+[26-Feb-2025 14:27:03 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/DelegatedMacroable.php on line 7
+[11-Mar-2025 23:47:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/ExcelServiceProvider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/ExcelServiceProvider.php on line 18
+[13-Mar-2025 21:14:01 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\RegistersCustomConcerns" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Excel.php on line 12
+[14-Mar-2025 15:06:09 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\DelegatedMacroable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Cell.php on line 12
+[13-Jun-2025 10:51:44 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\DelegatedMacroable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Row.php on line 11
+[11-Jul-2025 04:33:24 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\DelegatedMacroable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Reader.php on line 33
+[24-Sep-2025 10:38:10 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\DelegatedMacroable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/Sheet.php on line 62
+[12-Nov-2025 22:26:02 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/tokohore/public_html/ajpm_v2/vendor/maatwebsite/excel/src/DelegatedMacroable.php on line 7

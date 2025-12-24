@@ -1,0 +1,8 @@
+[12-Jul-2025 03:36:19 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_ByteStream_FileByteStream" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php on line 14
+[14-Nov-2025 21:33:32 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_ByteStream_AbstractFilterableInputStream" not found in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/FileByteStream.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/FileByteStream.php on line 16

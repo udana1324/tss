@@ -1,0 +1,28 @@
+[02-Apr-2025 01:53:48 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php on line 6
+[06-Apr-2025 20:58:43 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php on line 7
+[13-Apr-2025 20:07:25 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php on line 7
+[15-Apr-2025 02:59:57 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php on line 3
+[20-Apr-2025 03:46:46 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php on line 6
+[27-Apr-2025 22:58:58 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php on line 9
+[16-May-2025 20:05:13 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php on line 6

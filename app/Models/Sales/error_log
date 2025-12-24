@@ -1,0 +1,132 @@
+[02-Nov-2024 15:48:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoice.php on line 9
+[05-Nov-2024 04:24:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturnItemDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturnItemDetail.php on line 9
+[05-Nov-2024 08:30:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrder.php on line 9
+[06-Nov-2024 08:02:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/DeliveryTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/DeliveryTerms.php on line 8
+[07-Nov-2024 18:26:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/QuotationTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/QuotationTerms.php on line 8
+[08-Nov-2024 04:55:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/ExpeditionCost.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/ExpeditionCost.php on line 9
+[09-Nov-2024 10:18:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturn.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturn.php on line 9
+[09-Nov-2024 16:08:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderDetail.php on line 9
+[12-Nov-2024 01:29:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturnDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturnDetail.php on line 9
+[12-Nov-2024 11:12:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/ExpeditionCostDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/ExpeditionCostDetail.php on line 9
+[12-Nov-2024 23:39:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderTerms.php on line 8
+[14-Nov-2024 06:55:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoiceDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoiceDetail.php on line 9
+[21-Nov-2024 18:05:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/Quotation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/Quotation.php on line 9
+[22-Nov-2024 21:51:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/Delivery.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/Delivery.php on line 9
+[24-Nov-2024 15:22:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoiceCollectionDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoiceCollectionDetail.php on line 9
+[25-Nov-2024 02:24:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoiceCollection.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoiceCollection.php on line 9
+[02-Dec-2024 22:52:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternal.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternal.php on line 9
+[05-Dec-2024 04:30:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternalDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternalDetail.php on line 9
+[12-Dec-2024 07:06:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/DeliveryDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/DeliveryDetail.php on line 9
+[16-Dec-2024 15:19:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturnItem.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturnItem.php on line 9
+[20-Dec-2024 22:47:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoiceTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoiceTerms.php on line 8
+[22-Dec-2024 02:55:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/DeliveryAllocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/DeliveryAllocation.php on line 9
+[23-Dec-2024 20:20:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternalTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternalTerms.php on line 8
+[01-Feb-2025 03:11:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/Quotation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/Quotation.php on line 9
+[09-Feb-2025 17:26:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternal.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternal.php on line 9
+[13-Mar-2025 09:05:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturnItemDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturnItemDetail.php on line 9
+[29-Mar-2025 00:11:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoiceTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoiceTerms.php on line 8
+[31-Mar-2025 11:15:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternalTerms.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternalTerms.php on line 8
+[01-Apr-2025 09:39:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/QuotationDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/QuotationDetail.php on line 9
+[12-Jun-2025 20:08:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/DeliveryDetail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/DeliveryDetail.php on line 9
+[03-Jul-2025 08:02:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesInvoice.php on line 9
+[19-Aug-2025 10:02:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturnItem.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesReturnItem.php on line 9
+[01-Oct-2025 22:29:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternal.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Models/Sales/SalesOrderInternal.php on line 9

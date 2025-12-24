@@ -1,0 +1,289 @@
+[14-Sep-2024 09:35:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesInvoiceExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesInvoiceExport.php on line 18
+[16-Sep-2024 05:57:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingDetailExport.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingDetailExport.php on line 12
+[17-Sep-2024 11:50:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/RekapBarangExport.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/RekapBarangExport.php on line 15
+[24-Sep-2024 03:54:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/PurchaseInvoiceExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/PurchaseInvoiceExport.php on line 18
+[26-Sep-2024 20:08:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionReceivingExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionReceivingExport.php on line 14
+[01-Oct-2024 19:22:08 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Exportable" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/FinancialForecastExport.php on line 20
+[05-Oct-2024 06:25:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php on line 17
+[29-Nov-2024 02:54:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php on line 17
+[30-Nov-2024 14:01:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php on line 17
+[01-Dec-2024 14:14:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php on line 17
+[02-Dec-2024 14:18:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php on line 17
+[12-Jan-2025 17:10:26 UTC] PHP Fatal error:  Cannot use "parent" when current class scope has no parent in /home/tokohore/public_html/ajpm_v2/app/Exports/ExportFakturPajak.php on line 38
+[12-Jan-2025 18:39:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesDetailExport.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesDetailExport.php on line 12
+[12-Jan-2025 18:39:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesInvoiceExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesInvoiceExport.php on line 18
+[12-Jan-2025 19:42:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionDeliveryExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionDeliveryExport.php on line 14
+[12-Jan-2025 20:30:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/PurchaseInvoiceExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/PurchaseInvoiceExport.php on line 18
+[13-Jan-2025 03:32:44 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Exportable" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/APCardExport.php on line 21
+[13-Jan-2025 13:28:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesOrderExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesOrderExport.php on line 14
+[16-Jan-2025 21:02:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchaseCollectionExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchaseCollectionExport.php on line 14
+[19-Jan-2025 01:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ExportEntryKasBank.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ExportEntryKasBank.php on line 24
+[19-Jan-2025 05:49:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/GeneralLedgerExport.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/GeneralLedgerExport.php on line 15
+[20-Jan-2025 19:31:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductExport.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductExport.php on line 19
+[21-Jan-2025 18:03:30 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Exportable" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ARCardExport.php on line 23
+[22-Jan-2025 19:44:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesExport.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesExport.php on line 13
+[24-Jan-2025 08:55:26 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Exportable" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/FinancialForecastExport.php on line 20
+[24-Jan-2025 08:55:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportDeliveryExport.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportDeliveryExport.php on line 13
+[24-Jan-2025 21:34:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php on line 17
+[25-Jan-2025 01:50:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/StockCardExport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/StockCardExport.php on line 17
+[25-Jan-2025 02:17:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingSOExport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingSOExport.php on line 16
+[25-Jan-2025 05:22:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingDetailExport.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingDetailExport.php on line 12
+[27-Jan-2025 02:47:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/DeliveryExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/DeliveryExport.php on line 18
+[27-Jan-2025 11:40:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionReceivingExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionReceivingExport.php on line 14
+[27-Jan-2025 22:38:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingExport.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingExport.php on line 12
+[31-Jan-2025 18:36:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportReceivingExport.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportReceivingExport.php on line 13
+[09-Mar-2025 01:04:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/RekapBarangExport.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/RekapBarangExport.php on line 15
+[13-Apr-2025 08:31:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesOrderExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesOrderExport.php on line 14
+[13-Apr-2025 18:50:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingDetailExport.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingDetailExport.php on line 12
+[15-Apr-2025 04:18:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/RekapBarangExport.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/RekapBarangExport.php on line 15
+[15-Apr-2025 23:49:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ExportEntryKasBank.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ExportEntryKasBank.php on line 24
+[16-Apr-2025 07:09:15 UTC] PHP Fatal error:  Cannot use "parent" when current class scope has no parent in /home/tokohore/public_html/ajpm_v2/app/Exports/ExportFakturPajak.php on line 38
+[16-Apr-2025 08:42:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesDetailExport.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesDetailExport.php on line 12
+[16-Apr-2025 08:42:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesInvoiceExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesInvoiceExport.php on line 18
+[16-Apr-2025 09:48:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionDeliveryExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionDeliveryExport.php on line 14
+[16-Apr-2025 10:13:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/PurchaseInvoiceExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/PurchaseInvoiceExport.php on line 18
+[16-Apr-2025 16:47:19 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Exportable" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/APCardExport.php on line 21
+[17-Apr-2025 02:57:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesOrderExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesOrderExport.php on line 14
+[21-Apr-2025 09:05:10 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Exportable" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ARCardExport.php on line 23
+[21-Apr-2025 14:22:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportDeliveryExport.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportDeliveryExport.php on line 13
+[22-Apr-2025 04:17:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchaseCollectionExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchaseCollectionExport.php on line 14
+[22-Apr-2025 12:15:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/GeneralLedgerExport.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/GeneralLedgerExport.php on line 15
+[22-Apr-2025 17:12:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/DeliveryExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/DeliveryExport.php on line 18
+[23-Apr-2025 03:03:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/PurchaseInvoiceExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/PurchaseInvoiceExport.php on line 18
+[23-Apr-2025 09:41:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchaseCollectionExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchaseCollectionExport.php on line 14
+[23-Apr-2025 21:55:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/StockCardExport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/StockCardExport.php on line 17
+[24-Apr-2025 01:22:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductExport.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductExport.php on line 19
+[24-Apr-2025 21:46:39 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Exportable" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ARCardExport.php on line 23
+[25-Apr-2025 11:48:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ExportEntryKasBank.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ExportEntryKasBank.php on line 24
+[25-Apr-2025 22:08:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesExport.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesExport.php on line 13
+[26-Apr-2025 00:21:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesInvoiceExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/SalesInvoiceExport.php on line 18
+[26-Apr-2025 02:05:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionDeliveryExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionDeliveryExport.php on line 14
+[27-Apr-2025 05:18:29 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Exportable" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/APCardExport.php on line 21
+[27-Apr-2025 07:48:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportDeliveryExport.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportDeliveryExport.php on line 13
+[28-Apr-2025 02:35:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingDetailExport.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingDetailExport.php on line 12
+[28-Apr-2025 09:02:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingExport.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingExport.php on line 12
+[29-Apr-2025 12:33:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingSOExport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingSOExport.php on line 16
+[29-Apr-2025 23:48:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportReceivingExport.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportReceivingExport.php on line 13
+[30-Apr-2025 02:34:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesDetailExport.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesDetailExport.php on line 12
+[30-Apr-2025 13:04:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesExport.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportSalesExport.php on line 13
+[01-May-2025 01:58:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/StockCardExport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/StockCardExport.php on line 17
+[01-May-2025 02:41:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingSOExport.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingSOExport.php on line 16
+[02-May-2025 10:30:37 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Exportable" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/FinancialForecastExport.php on line 20
+[03-May-2025 14:44:22 UTC] PHP Fatal error:  Trait "Maatwebsite\Excel\Concerns\Exportable" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/FinancialForecastExport.php on line 20
+[03-May-2025 20:01:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingExport.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportPurchasingExport.php on line 12
+[04-May-2025 03:03:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/GeneralLedgerExport.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/GeneralLedgerExport.php on line 15
+[04-May-2025 04:12:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductExport.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductExport.php on line 19
+[04-May-2025 09:29:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportReceivingExport.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReportReceivingExport.php on line 13
+[06-May-2025 07:18:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/DeliveryExport.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/DeliveryExport.php on line 18
+[06-May-2025 16:15:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionReceivingExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionReceivingExport.php on line 14
+[07-May-2025 18:29:38 UTC] PHP Fatal error:  Cannot use "parent" when current class scope has no parent in /home/tokohore/public_html/ajpm_v2/app/Exports/ExportFakturPajak.php on line 38
+[25-Jul-2025 02:39:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionReceivingExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ProductionReceivingExport.php on line 14
+[30-Aug-2025 05:39:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/OutstandingPOExport.php on line 17
+[29-Sep-2025 20:06:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\FromView" not found in /home/tokohore/public_html/ajpm_v2/app/Exports/ReceivingExport.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/app/Exports/ReceivingExport.php on line 14

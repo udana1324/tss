@@ -1,0 +1,366 @@
+@extends('layout.default')
+@section('content')
+	<!-- Content area -->
+	@include('pages.alerts')
+			<div class="content">
+				<!-- Basic initialization -->
+				<div class="card card-custom">
+					<div class="card-header bg-primary header-elements-sm-inline">
+						<h5 class="card-title text-white">Ubah Tukar Faktur</h5>
+					</div>
+                    <form action="{{ route('PurchaseInvoiceCollection.Posting', $dataCollection->id) }}" class="form-horizontal" id="form_add" method="POST">
+					    <div class="card-body">
+                            {{ csrf_field() }}
+                            <div class="row">
+								<div class="col-md-6">
+									<fieldset>
+										<legend class="text-muted"><h6><i class="la la-clipboard-list"></i> Informasi Vendor / Supplier </h6></legend>
+                                        <div class="separator separator-solid separator-border-2 separator-muted"></div>
+                                        <br>
+										<div class="form-group row d-none">
+                                            <label class="col-lg-3 col-form-label">No. Tukar Faktur :</label>
+                                            <div class="col-lg-9">
+                                                <input type="hidden" value="load" id="mode">
+                                                <input type="text" class="form-control bg-slate-600 border-slate-600 border-1" placeholder="Auto Generated" name="kode_tf" id="kode_tf" value="{{$dataCollection->kode_tf}}" readonly>
+                                            </div>
+                                        </div>
+
+										<div class="form-group">
+                                            <label>Customer :</label>
+                                            <div>
+                                                <input type="text" class="form-control" value="{{$dataCollection->nama_supplier}}" id="supplier" name="supplier">
+                                            <span class="form-text text-danger err" style="display:none;">*Harap pilih supplier terlebih dahulu!</span>
+                                        </div>
+
+                                        <!--<div class="form-group">-->
+                                        <!--    <label>Rekening Perusahaan :</label>-->
+                                        <!--    <div class="form-group form-group-feedback form-group-feedback-right">-->
+                                        <!--        <input type="text" class="form-control" id="companyAccount" name="companyAccount" value="{{strtoupper($dataCollection->nama_bank).' - '.$dataCollection->nomor_rekening.' - '.ucwords($dataCollection->atas_nama)}}" readonly />-->
+                                        <!--    </div>-->
+                                        <!--</div>-->
+
+                                        <div class="form-group">
+                                            <label>PIC :</label>
+                                            <div class="form-group form-group-feedback form-group-feedback-right">
+                                                <input type="text" class="form-control" id="pic" name="pic" value="{{ucwords($dataCollection->pic_pengirim)}}" readonly />
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Tanggal Tukar Faktur :</label>
+                                            <div class="form-group form-group-feedback form-group-feedback-right">
+                                                <input type="text" class="form-control" name="tanggal_tf_picker" id="tanggal_tf_picker" readonly>
+                                                <span class="form-text text-danger err" style="display:none;">*Harap pilih tanggal Tukar Faktur terlebih dahulu!</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label">Catatan :</label>
+                                            <div class="col-lg-8">
+                                                @foreach($dataTerms as $terms)
+                                                    <li><label class="col-form-label">{{ $terms->terms_and_cond }}</label></li>
+                                                @endforeach
+                                            </div>
+                                        </div>
+
+									</fieldset>
+								</div>
+
+								<div class="col-md-6">
+									<fieldset>
+								<legend class="text-muted"><h6><i class="fab la-buffer"></i> Rincian Tukar Faktur</h6></legend>
+                                        <div class="separator separator-solid separator-border-2 separator-muted"></div>
+                                        <br>
+										<div class="form-group">
+                                            <label>Status :</label>
+                                            <div class="form-group form-group-feedback form-group-feedback-right">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" name="status" id="status" value="{{strtoupper($dataCollection->status)}}" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Status Revisi :</label>
+                                            <div class="form-group form-group-feedback form-group-feedback-right">
+                                                <div class="input-group">
+                                                    <input type="text" id="revisi" class="form-control" value="{{ $dataCollection->flag_revisi == "1" ? "Revisi" : "Tidak" }}" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+											<label>Status Tukar Faktur :</label>
+											<div class="input-group">
+                                                @if ($dataCollection->status == "draft")
+                                                <input type="text" id="status_tf" value="Menunggu Approval" class="form-control" readonly>
+                                                @elseif ($dataCollection->status == "posted")
+                                                <input type="text" id="status_tf" value="Diterima oleh : {{ucwords($dataCollection->diterima_oleh)}}" class="form-control" readonly>
+                                                @endif
+											</div>
+										</div>
+
+									</fieldset>
+								</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <legend class="text-muted"><h6><i class="la la-list"></i> List Faktur</h6></legend>
+                                        <div class="separator separator-solid separator-border-2 separator-muted"></div>
+                                        <br>
+
+                                        <div class="datatable datatable-bordered datatable-head-custom" id="list_item"></div>
+
+                                    </fieldset>
+                                </div>
+                            </div>
+
+
+							<br>
+							<div class="row">
+								<div class="col-md-6">
+
+								</div>
+
+								<div class="col-md-6">
+
+									<div class="form-group row">
+										<label class="col-lg-3 col-form-label">Grand Total</label>
+										<div class="col-lg-9">
+											<input type="text" value="0" id="nominalMask" class="form-control text-right" readonly>
+											<input type="hidden" id="nominal" name="nominal" class="form-control text-right" readonly>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+                        </div>
+
+                        <div class="card-footer bg-white d-sm-flex justify-content-sm-between align-items-sm-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-light-danger font-weight-bold mr-2" id="cancel">Keluar <i class="flaticon2-cancel icon-sm"></i></button>
+                            </div>
+
+                            <div class="mt-2 mt-sm-0">
+                                <input type="hidden" id="submit_action" name="submit_action" class="form-control" readonly>
+                                @if($dataCollection->status == "draft")
+                                    <button type="button" class="btn btn-secondary mt-2 mt-sm-0 btnSubmit" id="btn_edit" value="ubah">Ubah Invoice<i class="flaticon-edit ml-2"></i></button>
+                                    @if($hakAkses->approve == "Y")
+                                        <button type="button" class="btn btn-light-primary font-weight-bold mr-2 btnSubmit" id="btn_posting" value="posting"> Posting <i class="flaticon-paper-plane-1"></i></button>
+                                    @endif
+
+                                @elseif($dataCollection->status == "posted")
+                                    @if($hakAkses->revisi == "Y")
+                                        <button type="button" class="btn btn-warning mt-2 mt-sm-0 btnSubmit" id="btn_revisi" value="revisi">Revisi<i class="fas fa-file-signature ml-2"></i></button>
+                                    @endif
+                                    @if($hakAkses->print == "Y")
+                                        <a type="button" class="btn btn-primary mt-2 mt-sm-0" href='{{route('PurchaseInvoiceCollection.CetakKwitansi', $dataCollection->id)}}' target="_blank">Cetak Kwitansi<i class="fas fa-print ml-2"></i></a>
+										<a type="button" class="btn btn-primary mt-2 mt-sm-0" href='{{route('PurchaseInvoiceCollection.Cetak', $dataCollection->id)}}' target="_blank">Cetak<i class="fas fa-print ml-2"></i></a>
+									@endif
+                                @endif
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+			</div>
+			<!-- /content area -->
+@endsection
+@section('scripts')
+    <script type="text/javascript">
+
+        function formatDate(strDate) {
+            var arrMonth = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+            var date = new Date(strDate);
+            var day = date.getDate();
+            var month = date.getMonth();
+            var year = date.getFullYear();
+
+            return day + ' ' + arrMonth[month] + ' ' + year;
+        }
+
+        $(document).ready(function () {
+            $("#tanggal_tf_picker").val(formatDate('{{$dataCollection->tanggal}}'));
+            footerDataForm('{{$dataCollection->id}}');
+        });
+
+
+        function ucwords (str) {
+            return (str + '').replace(/^([a-z])|\s+([a-z])/g, function ($1) {
+                return $1.toUpperCase();
+            });
+        }
+
+        $("#cancel").on('click', function(e) {
+            Swal.fire({
+                title: "Batal?",
+                text: "Apakah anda ingin membatalkan posting Tukar Faktur?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonText: "Ya",
+                cancelButtonText: "Tidak",
+                reverseButtons: false
+            }).then(function(result) {
+                if(result.value) {
+                    window.location.href = "{{ url('/PurchaseInvoiceCollection') }}";
+                }
+                else if (result.dismiss === "cancel") {
+                    e.preventDefault();
+                }
+            });
+	    });
+
+        $(".btnSubmit").on("click", function(e){
+            var btn = $(this).val();
+            $("#submit_action").val(btn);
+            Swal.fire({
+                title: ucwords(btn) + " Tukar Faktur?",
+                text: "Apakah yakin ingin melakukan " + ucwords(btn) +" Tukar Faktur?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonText: "Ya",
+                cancelButtonText: "Tidak",
+                reverseButtons: false
+            }).then(function(result) {
+                if(result.value) {
+                    $("#form_add").off("submit").submit();
+                }
+                else if (result.dismiss === "cancel") {
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                    e.preventDefault();
+                }
+            });
+		});
+
+        $(document).ready(function() {
+
+            var datatable = $('#list_item').KTDatatable({
+                data: {
+                    type: 'remote',
+                    source: {
+                        read: {
+                            url: '/PurchaseInvoiceCollection/GetDetail',
+                            method: 'POST',
+                            headers : {
+                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+                            },
+                            data: {
+                                idCollection: "{{$dataCollection->id}}",
+                            },
+                        }
+                    },
+                    pageSize: 100,
+                    serverPaging: true,
+                    serverFiltering: false,
+                    serverSorting: true,
+                    saveState: false
+                },
+
+                layout: {
+                    scroll: false,
+                    height: 'auto',
+                    footer: false
+                },
+
+                sortable: false,
+
+                filterable: false,
+
+                pagination: false,
+
+                columns: [
+                    {
+                        field: 'id',
+                        title: '#',
+                        sortable: false,
+                        width: 20,
+                        type: 'number',
+                        selector: false,
+                        textAlign: 'center',
+                        visible:false,
+                    },
+                    {
+                        field: 'kode_invoice',
+                        title: 'Faktur',
+                        autoHide: false,
+                        width: 'auto',
+                        textAlign: 'center',
+                        template: function(row) {
+                            return row.kode_invoice.toUpperCase();
+                        },
+                    },
+                    {
+                        field: 'tanggal_invoice',
+                        title: 'Tanggal Faktur',
+                        width: 'auto',
+                        textAlign: 'center',
+                        template: function(row) {
+                            if (row.tanggal_invoice != null) {
+                                return formatDate(row.tanggal_invoice);
+                            }
+                            else {
+                                return '-';
+                            }
+                        },
+                    },
+                    {
+                        field: 'tanggal_jt',
+                        title: 'Tanggal JT',
+                        width: 'auto',
+                        textAlign: 'center',
+                        template: function(row) {
+                            if (row.tanggal_jt != null) {
+                                return formatDate(row.tanggal_jt);
+                            }
+                            else {
+                                return '-';
+                            }
+                        },
+                    },
+                    {
+                        field: 'grand_total',
+                        title: 'Nominal(Rp)',
+                        width: 'auto',
+                        textAlign: 'center',
+                        autoHide: false,
+                        template: function(row) {
+                            return parseFloat(row.grand_total).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                        },
+                    },
+                ],
+            });
+        });
+
+        function footerDataForm(idInv) {
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            $.ajax({
+                url: "/PurchaseInvoiceCollection/GetDataFooter",
+                method: 'POST',
+                data: {
+                    idTf: idInv,
+                },
+                success: function(result){
+                    if (result != "null") {
+                        var nominal = result.nominalTf;
+                        var nominalFixed = nominal.toString().replace(".", ",");
+                        $("#nominal").val(Math.ceil(nominal));
+                        $("#nominalMask").val(parseFloat(Math.ceil(nominal)).toLocaleString('id-ID', { maximumFractionDigits: 2}));
+
+                    }
+                    else {
+                        $("#nominal").val(0);
+                        $("#nominalMask").val(parseFloat(0).toLocaleString('id-ID', { maximumFractionDigits: 2}));
+                    }
+                }
+            });
+        }
+	//$('div.alert').delay(5000).slideUp(300);
+    </script>
+@endsection

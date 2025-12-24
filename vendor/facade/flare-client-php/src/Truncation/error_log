@@ -1,0 +1,12 @@
+[30-Jun-2025 05:43:10 UTC] PHP Fatal error:  Uncaught Error: Class "Facade\FlareClient\Truncation\AbstractTruncationStrategy" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Truncation/TrimStringsStrategy.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Truncation/TrimStringsStrategy.php on line 5
+[16-Jul-2025 10:16:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Facade\FlareClient\Truncation\TruncationStrategy" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Truncation/AbstractTruncationStrategy.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Truncation/AbstractTruncationStrategy.php on line 5
+[04-Aug-2025 10:56:41 UTC] PHP Fatal error:  Uncaught Error: Class "Facade\FlareClient\Truncation\AbstractTruncationStrategy" not found in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Truncation/TrimContextItemsStrategy.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/facade/flare-client-php/src/Truncation/TrimContextItemsStrategy.php on line 5

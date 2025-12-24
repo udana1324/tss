@@ -1,0 +1,36 @@
+[27-Jul-2025 02:18:59 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\IComparable" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 28
+[27-Jul-2025 09:48:31 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\IComparable" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/BaseDrawing.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/BaseDrawing.php on line 9
+[27-Jul-2025 14:01:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Worksheet\CellIterator" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/RowCellIterator.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/RowCellIterator.php on line 12
+[01-Aug-2025 18:24:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Worksheet\Dimension" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/ColumnDimension.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/ColumnDimension.php on line 8
+[11-Aug-2025 04:00:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Worksheet\Dimension" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/RowDimension.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/RowDimension.php on line 7
+[12-Aug-2025 16:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Worksheet\BaseDrawing" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/MemoryDrawing.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/MemoryDrawing.php on line 8
+[12-Aug-2025 18:58:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Worksheet\Drawing" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/HeaderFooterDrawing.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/HeaderFooterDrawing.php on line 5
+[13-Aug-2025 16:45:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Worksheet\CellIterator" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/ColumnCellIterator.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/ColumnCellIterator.php on line 12
+[26-Aug-2025 18:32:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Worksheet\BaseDrawing" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Drawing.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Drawing.php on line 8

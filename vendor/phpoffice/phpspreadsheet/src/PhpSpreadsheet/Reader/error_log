@@ -1,0 +1,32 @@
+[17-Aug-2025 21:01:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Reader\BaseReader" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Ods.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Ods.php on line 28
+[25-Aug-2025 05:10:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Reader\BaseReader" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xls.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xls.php on line 63
+[26-Aug-2025 13:42:09 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\Reader\IReadFilter" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/DefaultReadFilter.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/DefaultReadFilter.php on line 5
+[28-Aug-2025 18:06:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Reader\BaseReader" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php on line 42
+[02-Sep-2025 05:46:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Reader\BaseReader" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Gnumeric.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Gnumeric.php on line 21
+[03-Sep-2025 04:15:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Reader\BaseReader" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Html.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Html.php on line 23
+[03-Sep-2025 10:17:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpOffice\PhpSpreadsheet\Reader\BaseReader" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Slk.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Slk.php on line 13
+[04-Sep-2025 10:54:56 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpOffice\PhpSpreadsheet\Reader\IReader" not found in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php on line 9

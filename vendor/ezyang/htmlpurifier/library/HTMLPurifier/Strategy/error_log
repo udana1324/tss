@@ -1,0 +1,24 @@
+[25-Mar-2025 19:39:04 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Strategy" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/RemoveForeignElements.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/RemoveForeignElements.php on line 11
+[03-Apr-2025 13:51:08 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Strategy" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/FixNesting.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/FixNesting.php on line 32
+[16-Apr-2025 20:54:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Strategy_Composite" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/Core.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/Core.php on line 6
+[19-Apr-2025 23:00:48 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Strategy" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/MakeWellFormed.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/MakeWellFormed.php on line 14
+[21-Apr-2025 07:50:59 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Strategy" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/ValidateAttributes.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/ValidateAttributes.php on line 7
+[10-May-2025 02:26:06 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Strategy" not found in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/Composite.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tokohore/public_html/ajpm_v2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/Composite.php on line 6
