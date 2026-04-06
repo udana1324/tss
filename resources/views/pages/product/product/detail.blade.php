@@ -581,41 +581,49 @@
                         field: 'panjang_item',
                         title: 'Panjang',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'lebar_item',
                         title: 'Lebar',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'tinggi_item',
                         title: 'Tinggi',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'berat_item',
                         title: 'Berat',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'panjang_dus',
                         title: 'Panjang Dus',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'lebar_dus',
                         title: 'Lebar Dus',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'tinggi_dus',
                         title: 'Tinggi Dus',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'berat_dus',
                         title: 'Berat Dus',
                         width: 'auto',
+                        autoHide: true,
                     },
                     // {
                     //     field: 'qty_per_dus',
@@ -623,30 +631,129 @@
                     //     width: 'auto',
                     // },
                     {
-                        field: 'stok_minimum',
-                        title: 'Stok Min',
-                        width: 'auto',
-                    },
-                    {
-                        field: 'stok_maksimum',
-                        title: 'Stok Max',
-                        width: 'auto',
-                    },
-                    {
                         field: 'harga_beli',
                         title: 'Harga Beli',
                         width: 'auto',
+                        autoHide: false,
+                        template: function(row) {
+                            return parseFloat(row.harga_beli).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                        },
                     },
                     {
                         field: 'harga_jual',
                         title: 'Harga Jual',
                         width: 'auto',
+                        autoHide: false,
+                        template: function(row) {
+                            return parseFloat(row.harga_jual).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                        },
+                    },
+                    {
+                        field: 'jenis_grosir',
+                        title: 'Jenis Grosir',
+                        width: 'auto',
+                        autoHide: false,
+                        template: function(row) {
+                            return ucwords(row.jenis_grosir);
+                        },
+                    },
+                    {
+                        field: 'qty_grosir',
+                        title: 'Qty Grosir',
+                        width: 'auto',
+                        autoHide: false,
+                        template: function(row) {
+                            var txt = "";
+                            if (row.qty_grosir != null) {
+                                txt = parseFloat(row.qty_grosir).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                            }
+                            else {
+                                txt = "-";
+                            }
+                            return txt;
+                        },
+                    },
+                    {
+                        field: 'harga_grosir',
+                        title: 'Harga Jual Grosir',
+                        width: 'auto',
+                        autoHide: false,
+                        template: function(row) {
+                            var txt = "";
+                            if (row.harga_grosir != null) {
+                                txt = parseFloat(row.harga_grosir).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                            }
+                            else {
+                                txt = "-";
+                            }
+                            return txt;
+                        },
+                    },
+                    {
+                        field: 'jenis_grosir_2',
+                        title: 'Jenis Grosir Ke-2',
+                        width: 'auto',
+                        autoHide: true,
+                        template: function(row) {
+                            return ucwords(row.jenis_grosir_2);
+                        },
+                    },
+                    {
+                        field: 'qty_grosir_2',
+                        title: 'Qty Grosir ke-2',
+                        width: 'auto',
+                        autoHide: true,
+                        template: function(row) {
+                            var txt = "";
+                            if (row.qty_grosir_2 != null) {
+                                txt = parseFloat(row.qty_grosir_2).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                            }
+                            else {
+                                txt = "-";
+                            }
+                            return txt;
+                        },
+                    },
+                    {
+                        field: 'harga_grosir_2',
+                        title: 'Harga Jual Grosi ke 2',
+                        width: 'auto',
+                        autoHide: true,
+                        template: function(row) {
+                            var txt = "";
+                            if (row.harga_grosir_2 != null) {
+                                txt = parseFloat(row.harga_grosir_2).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                            }
+                            else {
+                                txt = "-";
+                            }
+                            return txt;
+                        },
+                    },
+                    {
+                        field: 'mode',
+                        title: 'Mode Penjualan',
+                        width: 'auto',
+                        autoHide: true,
+                        template: function(row) {
+                            var txt = "";
+                            if (row.mode == 'normal') {
+                                txt = 'Normal';
+                            }
+                            else if (row.mode == 'kelipatan') {
+                                txt = 'Kelipatan ' + parseFloat(row.qty_mode).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                            }
+                            else {
+                                txt = "-";
+                            }
+                            return txt;
+                        },
                     },
                     {
                         field: 'default',
                         title: 'Satuan Dasar',
                         textAlign: 'center',
-                        width: 'auto',
+                        width: 60,
                         overflow: 'visible',
                         autoHide:false,
                         template: function(row) {
@@ -665,8 +772,8 @@
                     },
                     {
                         field: 'flag_monitor',
-                        title: 'Monitor?',
-                        width: 'auto',
+                        title: 'Monitor',
+                        width: 65,
                         autoHide:false,
                         template: function(row) {
                             if (row.flag_monitor == "1") {

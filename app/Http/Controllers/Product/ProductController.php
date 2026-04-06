@@ -1272,6 +1272,14 @@ class ProductController extends Controller
             $bDus = $request->input('beratDus');
             $qDus = $request->input('qtyPerDus');
             $mode = $request->input('mode');
+            $jenisGrosir = $request->input('jenis_grosir');
+            $hargaGrosir = $request->input('harga_grosir');
+            $qtyGrosir = $request->input('qty_grosir');
+            $jenisGrosir2 = $request->input('jenis_grosir_2');
+            $hargaGrosir2 = $request->input('harga_grosir_2');
+            $qtyGrosir2 = $request->input('qty_grosir_2');
+            $modeSales = $request->input('mode_sales');
+            $qtyMode = $request->input('qty_mode');
 
             $user = Auth::user()->user_name;
 
@@ -1343,6 +1351,14 @@ class ProductController extends Controller
                 $listItem->berat_dus = $bDus;
                 // $listItem->qty_per_dus = $qDus;
                 $listItem->default = $flagDef;
+                $listItem->jenis_grosir = $jenisGrosir;
+                $listItem->harga_grosir = $hargaGrosir;
+                $listItem->qty_grosir = $qtyGrosir;
+                $listItem->jenis_grosir_2 = $jenisGrosir2;
+                $listItem->harga_grosir_2 = $hargaGrosir2;
+                $listItem->qty_grosir_2 = $qtyGrosir2;
+                $listItem->mode = $modeSales;
+                $listItem->qty_mode = $qtyMode;
                 $listItem->created_by = $user;
                 $listItem->save();
 
@@ -1418,6 +1434,14 @@ class ProductController extends Controller
             $bDus = $request->input('beratDus');
             $qDus = $request->input('qtyPerDus');
             $mode = $request->input('mode');
+            $jenisGrosir = $request->input('jenis_grosir');
+            $hargaGrosir = $request->input('harga_grosir');
+            $qtyGrosir = $request->input('qty_grosir');
+            $jenisGrosir2 = $request->input('jenis_grosir_2');
+            $hargaGrosir2 = $request->input('harga_grosir_2');
+            $qtyGrosir2 = $request->input('qty_grosir_2');
+            $modeSales = $request->input('mode_sales');
+            $qtyMode = $request->input('qty_mode');
 
             $hakAksesHargaJual = DB::table('module')
                                 ->join('module_access', 'module_access.menu_id', '=', 'module.id')
@@ -1467,7 +1491,15 @@ class ProductController extends Controller
             $listItem->tinggi_dus = $tDus;
             $listItem->berat_dus = $bDus;
             // $listItem->qty_per_dus = $qDus;
-            $listItem->created_by = Auth::user()->user_name;
+            $listItem->jenis_grosir = $jenisGrosir;
+            $listItem->harga_grosir = $hargaGrosir;
+            $listItem->qty_grosir = $qtyGrosir;
+            $listItem->jenis_grosir_2 = $jenisGrosir2;
+            $listItem->harga_grosir_2 = $hargaGrosir2;
+            $listItem->qty_grosir_2 = $qtyGrosir2;
+            $listItem->mode = $modeSales;
+            $listItem->qty_mode = $qtyMode;
+            $listItem->updated_by = Auth::user()->user_name;
             $listItem->save();
 
             $log = ActionLog::create([

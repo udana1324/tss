@@ -272,6 +272,7 @@ return [
             'plugins/global/plugins.bundle.css',
             'plugins/custom/prismjs/prismjs.bundle.css',
             'css/style.bundle.css',
+            // 'css/pages/wizard/wizard-4.css',
         ],
         'js' => [
             'plugins/global/plugins.bundle.js',
@@ -287,6 +288,7 @@ return [
             'js/pages/crud/datatables/extensions/responsive.js',
             'js/pages/crud/forms/widgets/bootstrap-datepicker.js',
             'js/pages/crud/forms/widgets/autosize.js',
+            // 'js/pages/custom/ecommerce/checkout.js',
         ],
     ],
 

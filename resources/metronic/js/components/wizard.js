@@ -125,11 +125,11 @@ var KTWizard = function(elementId, options) {
             }
 
             // Submit button event handler
-            KTUtil.addEvent(the.btnSubmit, 'click', function(e) {
-                e.preventDefault();
+            // KTUtil.addEvent(the.btnSubmit, 'click', function(e) {
+            //     e.preventDefault();
 
-                Plugin.eventTrigger('submit');
-            });
+            //     Plugin.eventTrigger('submit');
+            // });
         },
 
         /**

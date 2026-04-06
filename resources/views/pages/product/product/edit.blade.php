@@ -178,6 +178,25 @@
                                                 </div>
                                             </div>
 
+                                            <div class="form-group row">
+                                                <label class="col-lg-3 col-form-label">Model Penjualan Item :</label>
+                                                <div class="col-lg-9 row">
+                                                    <div class="col-7">
+                                                        <select class="form-control select2 reqSatuan" id="model_sales" name="model_sales" data-width="100%">
+                                                            <option label="Label"></option>
+                                                            <option value="normal">Normal</option>
+                                                            <option value="kelipatan">Kelipatan</option>
+                                                        </select>
+                                                        <span class="form-text text-danger errSatuan" style="display:none;">*Harap pilih Model Penjualan item terlebih dahulu!</span>
+                                                    </div>
+                                                    <div class="col-5">
+                                                        <input type="text" id="qty_kelipatanMask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="1" >
+                                                        <input type="hidden" id="qty_kelipatan" name="qty_kelipatan" class="form-control form-control-solid">
+                                                        <span class="form-text text-danger errKelipatan" style="display:none;">*Harap input jumlah kelipatan item terlebih dahulu!</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <div class="form-group row mb-0">
                                                 <label class="col-lg-2 offset-lg-1 text-center col-form-label label-inline">Panjang<br>(mm)</label>
                                                 <label class="col-lg-2 offset-lg-2 text-center col-form-label label-inline">Lebar<br>(mm)</label>
@@ -292,6 +311,66 @@
                                                     <input type="text" id="harga_jualMask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="0" placeholder="Masukkan Harga Jual Item">
         											<input type="hidden" name="harga_jual" id="harga_jual" value="0" class="form-control text-right reqHarga">
                                                     <span class="form-text text-danger errHarga" style="display:none;">*Harap isi harga jual terlebih dahulu!</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="col-lg-3 col-form-label">Jenis Grosir</label>
+                                                <div class="col-lg-9">
+                                                    <select class="form-control select2" id="jenis_grosir" name="jenis_grosir" data-width="100%">
+                                                        <option label="Label"></option>
+                                                        <option value="minimum">Pembelian Minimum</option>
+                                                        <option value="kelipatan">Kelipatan</option>
+                                                    </select>
+                                                    <span class="form-text text-danger" style="display:none;">*Harap isi qty  grosir terlebih dahulu!</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="col-lg-3 col-form-label">Qty untuk Grosir</label>
+                                                <div class="col-lg-9">
+                                                    <input type="text" id="qty_grosirMask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="0" placeholder="Masukkan Qty Grosir Item">
+        											<input type="hidden" name="qty_grosir" id="qty_grosir" value="0" class="form-control text-right">
+                                                    <span class="form-text text-danger" style="display:none;">*Harap isi qty  grosir terlebih dahulu!</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="col-lg-3 col-form-label">Harga Jual Grosir</label>
+                                                <div class="col-lg-9">
+                                                    <input type="text" id="harga_grosirMask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="0" placeholder="Masukkan Harga Jual Grosir Item">
+        											<input type="hidden" name="harga_grosir" id="harga_grosir" value="0" class="form-control text-right">
+                                                    <span class="form-text text-danger" style="display:none;">*Harap isi harga jual grosir terlebih dahulu!</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="col-lg-3 col-form-label">Jenis Grosir Ke-2</label>
+                                                <div class="col-lg-9">
+                                                    <select class="form-control select2" id="jenis_grosir_2" name="jenis_grosir_2" data-width="100%">
+                                                        <option label="Label"></option>
+                                                        <option value="minimum">Pembelian Minimum</option>
+                                                        <option value="kelipatan">Kelipatan</option>
+                                                    </select>
+                                                    <span class="form-text text-danger" style="display:none;">*Harap isi qty  grosir terlebih dahulu!</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="col-lg-3 col-form-label">Qty untuk Grosir Ke-2</label>
+                                                <div class="col-lg-9">
+                                                    <input type="text" id="qty_grosir2Mask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="0" placeholder="Masukkan Qty Grosir Item">
+        											<input type="hidden" name="qty_grosir2" id="qty_grosir2" value="0" class="form-control text-right">
+                                                    <span class="form-text text-danger" style="display:none;">*Harap isi qty  grosir terlebih dahulu!</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="col-lg-3 col-form-label">Harga Jual Grosir Ke-2</label>
+                                                <div class="col-lg-9">
+                                                    <input type="text" id="harga_grosir2Mask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="0" placeholder="Masukkan Harga Jual Grosir Item">
+        											<input type="hidden" name="harga_grosir2" id="harga_grosir2" value="0" class="form-control text-right">
+                                                    <span class="form-text text-danger" style="display:none;">*Harap isi harga jual grosir terlebih dahulu!</span>
                                                 </div>
                                             </div>
 
@@ -557,6 +636,25 @@
                                                         </div>
                                                     </div>
 
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Model Penjualan Item :</label>
+                                                        <div class="col-lg-9 row">
+                                                            <div class="col-7">
+                                                                <select class="form-control select2 reqSatuanEdit" id="model_salesEdit" name="model_salesEdit" data-width="100%">
+                                                                    <option label="Label"></option>
+                                                                    <option value="normal">Normal</option>
+                                                                    <option value="kelipatan">Kelipatan</option>
+                                                                </select>
+                                                                <span class="form-text text-danger errSatuanEdit" style="display:none;">*Harap pilih Model Penjualan item terlebih dahulu!</span>
+                                                            </div>
+                                                            <div class="col-5">
+                                                                <input type="text" id="qty_kelipatanEditMask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="1" >
+                                                                <input type="hidden" id="qty_kelipatanEdit" name="qty_kelipatanEdit" class="form-control form-control-solid">
+                                                                <span class="form-text text-danger errKelipatanEdit" style="display:none;">*Harap input jumlah kelipatan item terlebih dahulu!</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
                                                     <div class="form-group row mb-0">
                                                         <label class="col-lg-2 offset-lg-1 text-center col-form-label label-inline">Panjang<br>(mm)</label>
                                                         <label class="col-lg-2 offset-lg-2 text-center col-form-label label-inline">Lebar<br>(mm)</label>
@@ -663,6 +761,66 @@
                                                             <input type="text" id="harga_jualEditMask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="0" placeholder="Masukkan Harga Jual Item">
                                                             <input type="hidden" name="harga_jualEdit" id="harga_jualEdit" value="0" class="form-control text-right reqHarga">
                                                             <span class="form-text text-danger errHarga" style="display:none;">*Harap isi harga jual terlebih dahulu!</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Jenis Grosir</label>
+                                                        <div class="col-lg-9">
+                                                            <select class="form-control select2" id="jenis_grosir_edit" name="jenis_grosir_edit" data-width="100%">
+                                                                <option label="Label"></option>
+                                                                <option value="minimum">Pembelian Minimum</option>
+                                                                <option value="kelipatan">Kelipatan</option>
+                                                            </select>
+                                                            <span class="form-text text-danger" style="display:none;">*Harap isi qty  grosir terlebih dahulu!</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Qty untuk Grosir</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" id="qty_grosirEditMask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="0" placeholder="Masukkan Qty Grosir Item">
+                                                            <input type="hidden" name="qty_grosirEdit" id="qty_grosirEdit" value="0" class="form-control text-right">
+                                                            <span class="form-text text-danger" style="display:none;">*Harap isi qty  grosir terlebih dahulu!</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Harga Jual Grosir</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" id="harga_grosirEditMask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="0" placeholder="Masukkan Harga Jual Grosir Item">
+                                                            <input type="hidden" name="harga_grosirEdit" id="harga_grosirEdit" value="0" class="form-control text-right">
+                                                            <span class="form-text text-danger" style="display:none;">*Harap isi harga jual grosir terlebih dahulu!</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Jenis Grosir Ke-2</label>
+                                                        <div class="col-lg-9">
+                                                            <select class="form-control select2" id="jenis_grosir_2_edit" name="jenis_grosir_2_edit" data-width="100%">
+                                                                <option label="Label"></option>
+                                                                <option value="minimum">Pembelian Minimum</option>
+                                                                <option value="kelipatan">Kelipatan</option>
+                                                            </select>
+                                                            <span class="form-text text-danger" style="display:none;">*Harap isi qty  grosir terlebih dahulu!</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Qty untuk Grosir Ke-2</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" id="qty_grosirEdit2Mask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="0" placeholder="Masukkan Qty Grosir ke-2 untuk Item">
+                                                            <input type="hidden" name="qty_grosirEdit2" id="qty_grosirEdit2" value="0" class="form-control text-right">
+                                                            <span class="form-text text-danger" style="display:none;">*Harap isi qty  grosir terlebih dahulu!</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Harga Jual Grosir Ke-2</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" id="harga_grosirEdit2Mask" autocomplete="off" data-a-dec="," data-a-sep="." class="form-control text-right" value="0" placeholder="Masukkan Harga Jual Grosir ke-2 untuk Item">
+                                                            <input type="hidden" name="harga_grosirEdit2" id="harga_grosirEdit2" value="0" class="form-control text-right">
+                                                            <span class="form-text text-danger" style="display:none;">*Harap isi harga jual grosir terlebih dahulu!</span>
                                                         </div>
                                                     </div>
 
@@ -862,6 +1020,36 @@
                 placeholder: "Silahkan pilih kategori supplier"
             });
 
+            $('#model_sales').select2({
+                placeholder: "Pilih Model Penjualan Barang",
+                allowClear: true
+            });
+
+            $('#model_salesEdit').select2({
+                placeholder: "Pilih Model Penjualan Barang",
+                allowClear: true
+            });
+
+            $('#jenis_grosir').select2({
+                placeholder: "Pilih Jenis Grosir",
+                allowClear: true
+            });
+
+            $('#jenis_grosir_edit').select2({
+                placeholder: "Pilih Jenis Grosir",
+                allowClear: true
+            });
+
+            $('#jenis_grosir_2').select2({
+                placeholder: "Pilih Jenis Grosir",
+                allowClear: true
+            });
+
+            $('#jenis_grosir_2_edit').select2({
+                placeholder: "Pilih Jenis Grosir",
+                allowClear: true
+            });
+
             $("#harga_beliMask").autoNumeric('init');
             $("#harga_jualMask").autoNumeric('init');
             $("#stok_minimumMask").autoNumeric('init');
@@ -875,6 +1063,11 @@
             $("#tinggi_dusMask").autoNumeric('init');
             $("#berat_dusMask").autoNumeric('init');
             // $("#qty_per_dusMask").autoNumeric('init');
+            $("#harga_grosirMask").autoNumeric('init');
+            $("#qty_grosirMask").autoNumeric('init');
+            $("#harga_grosir2Mask").autoNumeric('init');
+            $("#qty_grosir2Mask").autoNumeric('init');
+            $("#qty_kelipatanMask").autoNumeric('init');
 
             $("#harga_beliEditMask").autoNumeric('init');
             $("#harga_jualEditMask").autoNumeric('init');
@@ -890,6 +1083,11 @@
             $("#tinggi_dusEditMask").autoNumeric('init');
             $("#berat_dusEditMask").autoNumeric('init');
             // $("#qty_per_dusEditMask").autoNumeric('init');
+            $("#harga_grosirEditMask").autoNumeric('init');
+            $("#qty_grosirEditMask").autoNumeric('init');
+            $("#harga_grosirEdit2Mask").autoNumeric('init');
+            $("#qty_grosirEdit2Mask").autoNumeric('init');
+            $("#qty_kelipatanEditMask").autoNumeric('init');
 
             $("#jenis_item").val("{{$dataProduct->jenis_item}}").trigger("change");
             $("#merk_item").val("{{$dataProduct->merk_item}}").trigger("change");
@@ -942,6 +1140,26 @@
 
         $("#berat_dusMask").on('change', function() {
             $("#berat_dus").val($("#berat_dusMask").autoNumeric("get"));
+        });
+
+        $("#harga_grosirMask").on('change', function() {
+            $("#harga_grosir").val($("#harga_grosirMask").autoNumeric("get"));
+        });
+
+        $("#qty_grosirMask").on('change', function() {
+            $("#qty_grosir").val($("#qty_grosirMask").autoNumeric("get"));
+        });
+
+        $("#harga_grosir2Mask").on('change', function() {
+            $("#harga_grosir2").val($("#harga_grosir2Mask").autoNumeric("get"));
+        });
+
+        $("#qty_grosir2Mask").on('change', function() {
+            $("#qty_grosir2").val($("#qty_grosir2Mask").autoNumeric("get"));
+        });
+
+        $("#qty_kelipatanMask").on('change', function() {
+            $("#qty_kelipatan").val($("#qty_kelipatanMask").autoNumeric("get"));
         });
 
         // $("#qty_per_dusMask").on('change', function() {
@@ -998,6 +1216,26 @@
 
         $("#berat_itemEditMask").on('change', function() {
             $("#berat_itemEdit").val($("#berat_itemEditMask").autoNumeric("get"));
+        });
+
+        $("#harga_grosirEditMask").on('change', function() {
+            $("#harga_grosirEdit").val($("#harga_grosirEditMask").autoNumeric("get"));
+        });
+
+        $("#qty_grosirEditMask").on('change', function() {
+            $("#qty_grosirEdit").val($("#qty_grosirEditMask").autoNumeric("get"));
+        });
+
+        $("#harga_grosirEdit2Mask").on('change', function() {
+            $("#harga_grosirEdit2").val($("#harga_grosirEdit2Mask").autoNumeric("get"));
+        });
+
+        $("#qty_grosirEdit2Mask").on('change', function() {
+            $("#qty_grosirEdit2").val($("#qty_grosirEdit2Mask").autoNumeric("get"));
+        });
+
+        $("#qty_kelipatanEditMask").on('change', function() {
+            $("#qty_kelipatanEdit").val($("#qty_kelipatanEditMask").autoNumeric("get"));
         });
 
 		function ucwords (str) {
@@ -1347,41 +1585,49 @@
                         field: 'panjang_item',
                         title: 'Panjang',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'lebar_item',
                         title: 'Lebar',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'tinggi_item',
                         title: 'Tinggi',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'berat_item',
                         title: 'Berat',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'panjang_dus',
                         title: 'Panjang Dus',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'lebar_dus',
                         title: 'Lebar Dus',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'tinggi_dus',
                         title: 'Tinggi Dus',
                         width: 'auto',
+                        autoHide: true,
                     },
                     {
                         field: 'berat_dus',
                         title: 'Berat Dus',
                         width: 'auto',
+                        autoHide: true,
                     },
                     // {
                     //     field: 'qty_per_dus',
@@ -1419,10 +1665,111 @@
                         },
                     },
                     {
+                        field: 'jenis_grosir',
+                        title: 'Jenis Grosir',
+                        width: 'auto',
+                        autoHide: false,
+                        template: function(row) {
+                            return ucwords(row.jenis_grosir);
+                        },
+                    },
+                    {
+                        field: 'qty_grosir',
+                        title: 'Qty Grosir',
+                        width: 'auto',
+                        autoHide: false,
+                        template: function(row) {
+                            var txt = "";
+                            if (row.qty_grosir != null) {
+                                txt = parseFloat(row.qty_grosir).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                            }
+                            else {
+                                txt = "-";
+                            }
+                            return txt;
+                        },
+                    },
+                    {
+                        field: 'harga_grosir',
+                        title: 'Harga Jual Grosir',
+                        width: 'auto',
+                        autoHide: false,
+                        template: function(row) {
+                            var txt = "";
+                            if (row.harga_grosir != null) {
+                                txt = parseFloat(row.harga_grosir).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                            }
+                            else {
+                                txt = "-";
+                            }
+                            return txt;
+                        },
+                    },
+                    {
+                        field: 'jenis_grosir_2',
+                        title: 'Jenis Grosir Ke-2',
+                        width: 'auto',
+                        autoHide: true,
+                        template: function(row) {
+                            return ucwords(row.jenis_grosir_2);
+                        },
+                    },
+                    {
+                        field: 'qty_grosir_2',
+                        title: 'Qty Grosir ke-2',
+                        width: 'auto',
+                        autoHide: true,
+                        template: function(row) {
+                            var txt = "";
+                            if (row.qty_grosir_2 != null) {
+                                txt = parseFloat(row.qty_grosir_2).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                            }
+                            else {
+                                txt = "-";
+                            }
+                            return txt;
+                        },
+                    },
+                    {
+                        field: 'harga_grosir_2',
+                        title: 'Harga Jual Grosi ke 2',
+                        width: 'auto',
+                        autoHide: true,
+                        template: function(row) {
+                            var txt = "";
+                            if (row.harga_grosir_2 != null) {
+                                txt = parseFloat(row.harga_grosir_2).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                            }
+                            else {
+                                txt = "-";
+                            }
+                            return txt;
+                        },
+                    },
+                    {
+                        field: 'mode',
+                        title: 'Mode Penjualan',
+                        width: 'auto',
+                        autoHide: true,
+                        template: function(row) {
+                            var txt = "";
+                            if (row.mode == 'normal') {
+                                txt = 'Normal';
+                            }
+                            else if (row.mode == 'kelipatan') {
+                                txt = 'Kelipatan ' + parseFloat(row.qty_mode).toLocaleString('id-ID', { maximumFractionDigits: 2});
+                            }
+                            else {
+                                txt = "-";
+                            }
+                            return txt;
+                        },
+                    },
+                    {
                         field: 'default',
                         title: 'Satuan Dasar',
                         textAlign: 'center',
-                        width: 'auto',
+                        width: 60,
                         overflow: 'visible',
                         autoHide:false,
                         template: function(row) {
@@ -1441,8 +1788,8 @@
                     },
                     {
                         field: 'flag_monitor',
-                        title: 'Monitor?',
-                        width: 'auto',
+                        title: 'Monitor',
+                        width: 65,
                         autoHide:false,
                         template: function(row) {
                             if (row.flag_monitor == "1") {
@@ -1504,6 +1851,14 @@
 				}
 			});
 
+            if ($("#model_sales").val() == "kelipatan" && $("#qty_kelipatan").val() == "") {
+            	$(this).closest('.form-group').find('.errKelipatan').show();
+				errCount = errCount + 1;
+            }
+            else {
+                $(this).closest('.form-group').find('.errKelipatan').hide();
+            }
+
 			if (errCount == 0) {
                 Swal.fire({
                     title: "Tambah Satuan untuk Item?",
@@ -1539,7 +1894,14 @@
                                 lebarDus : $("#lebar_dus").val(),
                                 tinggiDus : $("#tinggi_dus").val(),
                                 beratDus : $("#berat_dus").val(),
-                                // qtyPerDus : $("#qty_per_dus").val(),
+                                jenis_grosir : $("#jenis_grosir option:selected").val(),
+                                harga_grosir : $("#harga_grosir").val(),
+                                qty_grosir : $("#qty_grosir").val(),
+                                jenis_grosir_2 : $("#jenis_grosir_2 option:selected").val(),
+                                harga_grosir_2 : $("#harga_grosir2").val(),
+                                qty_grosir_2 : $("#qty_grosir2").val(),
+                                mode_sales : $("#model_sales option:selected").val(),
+                                qty_mode : $("#qty_kelipatan").val(),
                                 mode : 'tambah'
                             },
                             success: function(result){
@@ -1563,6 +1925,14 @@
                                     $("#tinggi_dusMask").val(0).trigger("change");
                                     $("#berat_dusMask").val(0).trigger("change");
                                     // $("#qty_per_dusMask").val(0).trigger("change");
+                                    $("#harga_grosirMask").val(0).trigger("change");
+                                    $("#qty_grosirMask").val(0).trigger("change");
+                                    $("#harga_grosir2Mask").val(0).trigger("change");
+                                    $("#qty_grosir2Mask").val(0).trigger("change");
+                                    $("#jenis_grosir").val("").trigger("change");
+                                    $("#jenis_grosir_2").val("").trigger("change");
+                                    $("#model_sales").val("").trigger("change");
+                                    $("#qty_kelipatanMask").autoNumeric('set', 1).trigger("change");
                                     var datatable = $('#table_satuan').KTDatatable();
                                         datatable.setDataSourceParam('idProduct', '');
                                         datatable.reload();
@@ -1601,18 +1971,26 @@
                         $("#nama_satuanEdit").val(result.kode_satuan.toUpperCase() + ' - ' + result.nama_satuan.toUpperCase());
                         $("#id_detail").val(result.id);
                         $("#id_satuanEdit").val(result.id_satuan);
-                        $("#panjang_itemEditMask").val(result.panjang_item).trigger("change");
-                        $("#lebar_itemEditMask").val(result.lebar_item).trigger("change");
-                        $("#tinggi_itemEditMask").val(result.tinggi_item).trigger("change");
-                        $("#berat_itemEditMask").val(result.berat_item).trigger("change");
-                        $("#harga_beliEditMask").val(result.harga_beli).trigger("change");
-                        $("#harga_jualEditMask").val(result.harga_jual).trigger("change");
-                        $("#stok_minimumEditMask").val(result.stok_minimum).trigger("change");
-                        $("#stok_maksimumEditMask").val(result.stok_maksimum).trigger("change");
-                        $("#panjang_dusEditMask").val(result.panjang_dus).trigger("change");
-                        $("#lebar_dusEditMask").val(result.lebar_dus).trigger("change");
-                        $("#tinggi_dusEditMask").val(result.tinggi_dus).trigger("change");
-                        $("#berat_dusEditMask").val(result.berat_dus).trigger("change");
+                        $("#panjang_itemEditMask").autoNumeric('set', result.panjang_item).trigger("change");
+                        $("#lebar_itemEditMask").autoNumeric('set', result.lebar_item).trigger("change");
+                        $("#tinggi_itemEditMask").autoNumeric('set', result.tinggi_item).trigger("change");
+                        $("#berat_itemEditMask").autoNumeric('set', result.berat_item).trigger("change");
+                        $("#harga_beliEditMask").autoNumeric('set', result.harga_beli).trigger("change");
+                        $("#harga_jualEditMask").autoNumeric('set', result.harga_jual).trigger("change");
+                        $("#stok_minimumEditMask").autoNumeric('set', result.stok_minimum).trigger("change");
+                        $("#stok_maksimumEditMask").autoNumeric('set', result.stok_maksimum).trigger("change");
+                        $("#panjang_dusEditMask").autoNumeric('set', result.panjang_dus).trigger("change");
+                        $("#lebar_dusEditMask").autoNumeric('set', result.lebar_dus).trigger("change");
+                        $("#tinggi_dusEditMask").autoNumeric('set', result.tinggi_dus).trigger("change");
+                        $("#berat_dusEditMask").autoNumeric('set', result.berat_dus).trigger("change");
+                        $("#harga_grosirEditMask").autoNumeric('set', result.harga_grosir).trigger("change");
+                        $("#qty_grosirEditMask").autoNumeric('set', result.qty_grosir).trigger("change");
+                        $("#harga_grosirEdit2Mask").autoNumeric('set', result.harga_grosir_2).trigger("change");
+                        $("#qty_grosirEdit2Mask").autoNumeric('set', result.qty_grosir_2).trigger("change");
+                        $("#qty_kelipatanEditMask").autoNumeric('set', result.qty_mode).trigger("change");
+                        $("#jenis_grosir_edit").val(result.jenis_grosir).trigger("change");
+                        $("#jenis_grosir_2_edit").val(result.jenis_grosir_2).trigger("change");
+                        $("#model_salesEdit").val(result.mode).trigger("change");
                         // $("#qty_per_dusEditMask").val(result.qty_per_dus).trigger("change");
 
                         $('#modal_form_edit_item').modal('show');
@@ -1688,6 +2066,14 @@
 				}
 			});
 
+            if ($("#model_salesEdit").val() == "kelipatan" && $("#qty_kelipataEdit").val() == "") {
+            	$(this).closest('.form-group').find('.errKelipatanEdit').show();
+				errCount = errCount + 1;
+            }
+            else {
+                $(this).closest('.form-group').find('.errKelipatanEdit').hide();
+            }
+
 			if (errCount == 0) {
                 Swal.fire({
                     title: "Update Satuan Item?",
@@ -1724,6 +2110,14 @@
                                 lebarDus : $("#lebar_dusEdit").val(),
                                 tinggiDus : $("#tinggi_dusEdit").val(),
                                 beratDus : $("#berat_dusEdit").val(),
+                                jenis_grosir : $("#jenis_grosir_edit option:selected").val(),
+                                harga_grosir : $("#harga_grosirEdit").val(),
+                                qty_grosir : $("#qty_grosirEdit").val(),
+                                jenis_grosir_2 : $("#jenis_grosir_2_edit option:selected").val(),
+                                harga_grosir_2 : $("#harga_grosirEdit2").val(),
+                                qty_grosir_2 : $("#qty_grosirEdit2").val(),
+                                mode_sales : $("#model_salesEdit option:selected").val(),
+                                qty_mode : $("#qty_kelipatanEdit").val(),
                                 flagMonitor : $("#flagMonitorEdit").val(),
                             },
                             success: function(result){
@@ -1748,6 +2142,12 @@
                                     $("#lebar_dusEditMask").val(0).trigger("change");
                                     $("#tinggi_dusEditMask").val(0).trigger("change");
                                     $("#berat_dusEditMask").val(0).trigger("change");
+                                    $("#harga_grosirEditMask").val(0).trigger("change");
+                                    $("#qty_grosirEditMask").val(0).trigger("change");
+                                    $("#harga_grosirEdit2Mask").val(0).trigger("change");
+                                    $("#qty_grosirEdit2Mask").val(0).trigger("change");
+                                    $("#qty_kelipatanEditMask").val(0).trigger("change");
+                                    $("#model_salesEdit").val(0).trigger("change");
                                     // $("#qty_per_dusEditMask").val(0).trigger("change");
                                     var datatable = $('#table_satuan').KTDatatable();
                                         datatable.setDataSourceParam('idProduct', '');
@@ -2612,6 +3012,34 @@
         $("#modal_list_supp").on('show.bs.modal', function(e) {
 	        var datatablItem = $("#list_supp").KTDatatable();
             datatablItem.reload();
+	    });
+
+        $("#model_sales").on('change', function(e) {
+            if ($(this).val() == "normal") {
+                $("#qty_kelipatanMask").autoNumeric('set', 1).trigger("change");
+                $("#qty_kelipatanMask").prop('readonly', true);
+            }
+            else if($(this).val() == "kelipatan") {
+                $("#qty_kelipatanMask").prop('readonly', false);
+            }
+            else {
+                $("#qty_kelipatanMask").autoNumeric('set', 1).trigger("change");
+                $("#qty_kelipatanMask").prop('readonly', true);
+            }
+	    });
+
+        $("#model_salesEdit").on('change', function(e) {
+            if ($(this).val() == "normal") {
+                $("#qty_kelipatanEditMask").autoNumeric('set', 1).trigger("change");
+                $("#qty_kelipatanEditMask").prop('readonly', true);
+            }
+            else if($(this).val() == "kelipatan") {
+                $("#qty_kelipatanEditMask").prop('readonly', false);
+            }
+            else {
+                $("#qty_kelipatanEditMask").autoNumeric('set', 1).trigger("change");
+                $("#qty_kelipatanEditMask").prop('readonly', true);
+            }
 	    });
 
     	//$('div.alert').delay(5000).slideUp(300);

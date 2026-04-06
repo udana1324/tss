@@ -368,7 +368,7 @@
                     },
                     {
                         field: 'customer_vendor',
-                        title: 'Nama Perusahaan',
+                        title: 'Sumber Transaksi',
                         autoHide: false,
                         width: 'auto',
                         textAlign: 'left',

@@ -13,6 +13,8 @@ class ActionLog extends Model
         'module',
         'action',
         'desc',
-        'username'
+        'username',
+        'payload_new',
+        'payload_old'
     ];
 }

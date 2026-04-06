@@ -3,7 +3,10 @@
 namespace App\Classes\BusinessManagement;
 
 use App\Models\Accounting\TaxSettings;
+use App\Models\ActionLog;
+use App\Models\Sales\SalesCashierDetail;
 use App\Models\Setting\Module;
+use App\Models\Stock\StockTransaction;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
@@ -192,5 +195,104 @@ class Helper
         else {
             return false;
         }
+    }
+
+    public static function SubmitStockTransaction($mode, $transaction) {
+        if ($mode == "post") {
+
+            $details = SalesCashierDetail::select(
+                                        'sales_cashier_detail.id',
+                                        'sales_cashier_detail.id_item',
+                                        'sales_cashier_detail.id_satuan',
+                                        'sales_cashier_detail.qty_item'
+                                    )
+                                    ->where([
+                                        ['sales_cashier_detail.id_sc', '=', $transaction->id]
+                                    ])
+                                    ->get();
+
+            $transactionData = [];
+
+            foreach ($details as $detail) {
+
+                $stockTransaction = HelperDelivery::createStockTransaction($transaction, $detail);
+
+                if (count($stockTransaction) > 0 ) {
+                    array_push($transactionData, $stockTransaction);
+                    $errorSourceAssign = 0;
+                }
+                else {
+                    $errorSourceAssign = 1;
+                }
+
+                if ($errorSourceAssign == 1) {
+                    $msg = 'Penjualan Barang '.strtoupper($transaction->no_ref).' Gagal Diposting! Terdapat Masalah saat pemilihan sumber stok barang!';
+                    $status = 'warning';
+                }
+
+            }
+
+            foreach ($transactionData as $dataSJ) {
+                StockTransaction::insert($dataSJ);
+            }
+
+            $log = ActionLog::create([
+                'module' => 'Sales Cashier',
+                'action' => 'Posting',
+                'desc' => 'Posting Sales Cashier',
+                'username' => Auth::user()->user_name
+            ]);
+            $msg = 'Penjualan '.strtoupper($transaction->no_ref).' Telah Diposting!';
+            $status = 'success';
+        }
+        else if ($mode == "update") {
+            $delete = DB::table('stock_transaction')->where('kode_transaksi', '=', $transaction->no_ref)->delete();
+
+            $details = SalesCashierDetail::select(
+                                        'sales_cashier_detail.id',
+                                        'sales_cashier_detail.id_item',
+                                        'sales_cashier_detail.id_satuan',
+                                        'sales_cashier_detail.qty_item'
+                                    )
+                                    ->where([
+                                        ['sales_cashier_detail.id_sc', '=', $transaction->id]
+                                    ])
+                                    ->get();
+
+            $transactionData = [];
+
+            foreach ($details as $detail) {
+
+                $stockTransaction = HelperDelivery::createStockTransaction($transaction, $detail);
+
+                if (count($stockTransaction) > 0 ) {
+                    array_push($transactionData, $stockTransaction);
+                    $errorSourceAssign = 0;
+                }
+                else {
+                    $errorSourceAssign = 1;
+                }
+
+                if ($errorSourceAssign == 1) {
+                    $msg = 'Penjualan Barang '.strtoupper($transaction->no_ref).' Gagal Diposting! Terdapat Masalah saat pemilihan sumber stok barang!';
+                    $status = 'warning';
+                }
+
+            }
+
+            foreach ($transactionData as $dataSJ) {
+                StockTransaction::insert($dataSJ);
+            }
+
+            $log = ActionLog::create([
+                'module' => 'Sales Cashier',
+                'action' => 'Posting',
+                'desc' => 'Posting Sales Cashier',
+                'username' => Auth::user()->user_name
+            ]);
+            $msg = 'Penjualan '.strtoupper($transaction->no_ref).' Telah Diposting!';
+            $status = 'success';
+        }
+
     }
 }

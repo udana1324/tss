@@ -43,6 +43,7 @@
                                             <option value="penjualan">Penjualan</option>
                                             <option value="pembelian">Pembelian</option>
                                             <option value="gudang">Gudang</option>
+                                            <option value="cashier">Kasir</option>
                                             <option value="operasional">Operasional</option>
                                         </select>
                                     </div>

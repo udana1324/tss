@@ -227,9 +227,9 @@ License: You must have a valid license purchased only from themeforest(the above
                     XLSX.writeFile(wb, fn || (nm + '.' + (type || 'xlsx')));
             }
 
-            $("#closeSTB").on('click', function() {
-                $("#stickyToolBar").attr("class","d-none");
-            });
+            // $("#closeSTB").on('click', function() {
+            //     $("#stickyToolBar").attr("class","d-none");
+            // });
 
             //Widget 1 Chart Init
             $(document).ready(function() {

@@ -983,7 +983,7 @@ class MainController extends Controller
             $sevenDaysAgo = Carbon::now()->subDays(7)->format('Y-m-d');
 
             $hargaModal = PurchaseOrderDetail::leftJoin('purchase_order', 'purchase_order_detail.id_po', '=', 'purchase_order.id')
-                                            ->select('purchase_order_detail.id_item', DB::raw("AVG(purchase_order_detail.harga_beli) AS harga_modal"))
+                                            ->select('purchase_order_detail.id_item', DB::raw("SUM(purchase_order_detail.harga_beli * purchase_order_detail.qty_order) / SUM(purchase_order_detail.qty_order) AS harga_modal"))
                                             ->whereIn('purchase_order.id', function($querySub) {
                                                 $querySub->select(DB::raw("(purchase_invoice.id_po)"))->from("purchase_invoice")
                                                         ->where([

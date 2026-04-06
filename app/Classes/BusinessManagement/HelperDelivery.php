@@ -11,6 +11,8 @@ use App\Classes\BusinessManagement\Helper;
 use App\Models\Product\Product;
 use App\Models\Sales\Delivery;
 use App\Models\Sales\DeliveryDetail;
+use App\Models\Sales\SalesCashier;
+use App\Models\Sales\SalesCashierDetail;
 use App\Models\Sales\SalesOrder;
 use App\Models\Sales\SalesOrderDetail;
 use App\Models\Stock\StockTransaction;
@@ -457,11 +459,66 @@ class HelperDelivery
         return $fpdf;
     }
 
-    public static function createStockTransaction($idSJ, $alokasi) {
+    public static function createStockTransaction($transaction, $detail) {
+        $tempQty = 0;
+        $transactionList = [];
+        // $dataStock = HelperDelivery::getStock($alokasi->id_item, $alokasi->id_satuan, $alokasi->id_index);
+        $dataStock = HelperDelivery::getStock($detail->id_item, $detail->id_satuan);
+        // dd($dataStock);
+        $tempQty = $detail->qty_item;
+        foreach ($dataStock as $stock) {
+
+
+            if ($stock->qty > 0) {
+                if ($tempQty > 0 && $tempQty <= $stock->qty) {
+                    $dataStok = [
+                        'kode_transaksi' => $transaction->no_ref,
+                        'id_item' => $detail->id_item,
+                        'id_satuan' => $detail->id_satuan,
+                        'qty_item' => $tempQty,
+                        'id_index' => $stock->id_index,
+                        'tgl_transaksi' => $transaction->tanggal_penjualan,
+                        'jenis_transaksi' => "penjualan",
+                        'transaksi' => "out",
+                        'jenis_sumber' => $stock->jenis_sumber,
+                        'created_at' => now(),
+                        'created_by' => Auth::user()->user_name,
+                    ];
+                    array_push($transactionList, $dataStok);
+
+                    $tempQty = $tempQty - $detail->qty_item;
+                }
+                elseif ($tempQty > 0 ) {
+                    $dataStok = [
+                        'kode_transaksi' => $transaction->no_ref,
+                        'id_item' => $detail->id_item,
+                        'id_satuan' => $detail->id_satuan,
+                        'qty_item' => $stock->qty,
+                        'id_index' => $stock->id_index,
+                        'tgl_transaksi' => $transaction->tanggal_penjualan,
+                        'jenis_transaksi' => "penjualan",
+                        'transaksi' => "out",
+                        'jenis_sumber' => $stock->jenis_sumber,
+                        'created_at' => now(),
+                        'created_by' => Auth::user()->user_name,
+                    ];
+                    array_push($transactionList, $dataStok);
+
+                    $tempQty = $tempQty - $stock->qty;
+                }
+            }
+        }
+       // dd($transactionList);
+
+        return $transactionList;
+    }
+
+    public static function createStockTransaction2($idSJ, $alokasi) {
         $tempQty = 0;
         $delivery = Delivery::find($idSJ);
         $transactionList = [];
-        $dataStock = HelperDelivery::getStock($alokasi->id_item, $alokasi->id_satuan, $alokasi->id_index);
+        // $dataStock = HelperDelivery::getStock($alokasi->id_item, $alokasi->id_satuan, $alokasi->id_index);
+        $dataStock = HelperDelivery::getStock2($alokasi->id_item, $alokasi->id_satuan, $alokasi->id_index);
         //dd($dataStock);
         $tempQty = $alokasi->qty_item;
         foreach ($dataStock as $stock) {
@@ -511,7 +568,7 @@ class HelperDelivery
         return $transactionList;
     }
 
-    static function getStock($idItem, $idSatuan, $idIndex) {
+    static function getStock2($idItem, $idSatuan, $idIndex) {
         $dataStocks = StockTransaction::select(
             'stock_transaction.id_item',
             'stock_transaction.id_index',
@@ -532,6 +589,33 @@ class HelperDelivery
         ->groupBy('stock_transaction.id_satuan')
         ->groupBy('stock_transaction.jenis_sumber')
         ->orderBy('stock_transaction.jenis_sumber', 'asc')
+        ->get();
+
+        return $dataStocks;
+    }
+
+    static function getStock($idItem, $idSatuan) {
+        $dataStocks = StockTransaction::select(
+            'stock_transaction.id_item',
+            'stock_transaction.id_index',
+            'stock_transaction.id_satuan',
+            'stock_transaction.jenis_sumber',
+            DB::raw("SUM(
+                CASE WHEN stock_transaction.transaksi = 'in' THEN +stock_transaction.qty_item
+                        Else -stock_transaction.qty_item
+                End
+            ) AS qty")
+        )
+        ->where([
+            ['stock_transaction.id_item', '=', $idItem],
+            ['stock_transaction.id_satuan', '=', $idSatuan],
+        ])
+        ->groupBy('stock_transaction.id_item')
+        ->groupBy('stock_transaction.id_satuan')
+        ->groupBy('stock_transaction.id_index')
+        ->groupBy('stock_transaction.jenis_sumber')
+        ->orderBy('stock_transaction.jenis_sumber', 'asc')
+        ->orderBy('stock_transaction.id_index', 'asc')
         ->get();
 
         return $dataStocks;

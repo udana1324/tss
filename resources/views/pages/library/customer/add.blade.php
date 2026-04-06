@@ -901,7 +901,7 @@
                         width: 'auto',
                         title: 'Kelurahan',
                         template: function(row) {
-                            if (row.Kelurahan != null) {
+                            if (row.kelurahan != null) {
                                 return ucwords(row.kelurahan);
                             }
                             else {

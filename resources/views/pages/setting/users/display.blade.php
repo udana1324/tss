@@ -54,6 +54,7 @@
 													<option value="penjualan">Penjualan</option>
 													<option value="pembelian">Pembelian</option>
 													<option value="gudang">Gudang</option>
+                                                    <option value="cashier">Kasir</option>
                                                     <option value="operasional">Operasional</option>
 												</select>
 												<span class="form-text text-danger err" style="display:none;">*Harap Pilih Grup Pengguna terlebih dahulu!</span>

@@ -1267,27 +1267,27 @@ class PurchaseInvoiceController extends Controller
 
                             $ap = HelperAccounting::InsertAPBalance($purchasing->id, 'posting');
 
-                            $settings = GLAccountSettings::find(1);
-                            $dataPurchase = PurchaseOrder::find($purchasing->id_po);
-                            $dataSupplier = Supplier::find($dataPurchase->id_supplier);
-                            $idAkun = "";
-                            $idTransaksi = "";
+                            // $settings = GLAccountSettings::find(1);
+                            // $dataPurchase = PurchaseOrder::find($purchasing->id_po);
+                            // $dataSupplier = Supplier::find($dataPurchase->id_supplier);
+                            // $idAkun = "";
+                            // $idTransaksi = "";
 
-                            if ($dataSupplier !=  null) {
-                                $idAkun = $dataSupplier->id_account ?? $settings->id_account_hutang;
-                            }
-                            else {
-                                $idAkun = $settings->id_account_hutang;
-                            }
+                            // if ($dataSupplier !=  null) {
+                            //     $idAkun = $dataSupplier->id_account ?? $settings->id_account_hutang;
+                            // }
+                            // else {
+                            //     $idAkun = $settings->id_account_hutang;
+                            // }
 
-                            $postJournal = HelperAccounting::PostJournal("purchase_invoice", $purchasing->id, $settings->id_account_persediaan, $idAkun, $purchasing->tanggal_invoice, $purchasing->grand_total, 'system');
+                            // $postJournal = HelperAccounting::PostJournal("purchase_invoice", $purchasing->id, $settings->id_account_persediaan, $idAkun, $purchasing->tanggal_invoice, $purchasing->grand_total, 'system');
 
-                            if ($postJournal['error'] == "") {
-                                $purchasing->flag_entry = 1;
+                            // if ($postJournal['error'] == "") {
+                            //     $purchasing->flag_entry = 1;
 
-                            }
+                            // }
 
-                            $purchasing->save();
+                            // $purchasing->save();
 
 
                             $msg = 'Data '.strtoupper($purchasing->kode_invoice).' Telah Diposting!';

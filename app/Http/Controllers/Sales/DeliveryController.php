@@ -1737,10 +1737,10 @@ class DeliveryController extends Controller
             $romawiBulan = strtolower(Helper::romawi(date("m", strtotime($tglSj))));
 
             if ($counter < 10) {
-                $nmrDlv = "sj-cv-".$kodeTgl."0".$counter;
+                $nmrDlv = "sj-tss-".$kodeTgl."0".$counter;
             }
             else {
-                $nmrDlv = "sj-cv-".$kodeTgl.$counter;
+                $nmrDlv = "sj-tss-".$kodeTgl.$counter;
             }
 
             $delivery = new Delivery();
@@ -2102,7 +2102,7 @@ class DeliveryController extends Controller
 
                         //$ttlAlokasi = $ttlAlokasi + $detilAlokasi->qty_item;
 
-                        $stockTransaction = HelperDelivery::createStockTransaction($id, $detilAlokasi);
+                        $stockTransaction = HelperDelivery::createStockTransaction2($id, $detilAlokasi);
 
                         if (count($stockTransaction) > 0 ) {
                             array_push($transactionData, $stockTransaction);

@@ -44,6 +44,7 @@
 													<option label="Label"></option>
 													<option value="admin">Admin</option>
 													<option value="penjualan">Penjualan</option>
+                                                    <option value="cashier">Kasir</option>
 													<option value="pembelian">Pembelian</option>
 													<option value="gudang">Gudang</option>
                                                     <option value="operasional">Operasional</option>

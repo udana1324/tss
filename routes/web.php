@@ -58,7 +58,10 @@ use App\Http\Controllers\Report\SalesReportDetailController;
 use App\Http\Controllers\Report\PurchaseReportController;
 use App\Http\Controllers\Report\PurchaseReportDetailController;
 use App\Http\Controllers\Report\ReceivingReportController;
+use App\Http\Controllers\Report\SalesCashierReportController;
+use App\Http\Controllers\Sales\CashierController;
 use App\Http\Controllers\Sales\ExpeditionCostController;
+use App\Http\Controllers\Sales\ProductSpecialPricingController;
 use App\Http\Controllers\Sales\SalesOrderInternalController;
 use App\Http\Controllers\Sales\SalesReturnController;
 use App\Http\Controllers\Sales\SalesReturnItemController;
@@ -715,6 +718,10 @@ Route::post('/ReportPurchasingDetail/GetPurchasingReportDetail', [PurchaseReport
 Route::post('/ReportPurchasingDetail/ExportPurchasingDetailReport', [PurchaseReportDetailController::class, 'exportDataPurchasingDetailReport'])->name('ReportPurchasingDetail.Export');
 Route::resource('ReportPurchasingDetail', PurchaseReportDetailController::class);
 
+Route::post('/ReportSalesCashier/GetSalesCashierReport', [SalesCashierReportController::class, 'getDataSalesCashierReport']);
+Route::post('/ReportSalesCashier/ExportSalesCashierReport', [SalesCashierReportController::class, 'exportDataSalesCashierReport'])->name('ReportSalesCashier.Export');
+Route::resource('ReportSalesCashier', SalesCashierReportController::class);
+
 Route::post('/RekapPenjualanBarang/GetDetail', [RekapPenjualanController::class, 'getDetailRekapPenjualanBarang']);
 Route::post('/RekapPenjualanBarang/GetDetailBarang', [RekapPenjualanController::class, 'getDetailRekapBarang']);
 Route::post('/RekapPenjualanBarang/GetDetailLokasi', [RekapPenjualanController::class, 'getDetailRekapLokasi']);
@@ -1196,3 +1203,44 @@ Route::post('/SalesOrderInternal/GetSatuan', [SalesOrderInternalController::clas
 Route::post('/SalesOrderInternal/ExportSalesOrderInternal', [SalesOrderInternalController::class, 'exportDataSalesOrderInternal'])->name('SalesOrderInternal.Export');
 Route::post('/SalesOrderInternal/SetDetail', [SalesOrderInternalController::class, 'SetSalesOrderInternalDetail']);
 Route::resource('SalesOrderInternal', SalesOrderInternalController::class);
+
+//ProductSpecialPricing
+Route::get('/ProductSpecialPricing/GetData', [ProductSpecialPricingController::class, 'getDataIndex']);
+Route::get('/ProductSpecialPricing/Add', [ProductSpecialPricingController::class, 'create']);
+Route::post('/ProductSpecialPricing/GetProduct', [ProductSpecialPricingController::class, 'getProduct']);
+Route::post('/ProductSpecialPricing/GetSatuan', [ProductSpecialPricingController::class, 'getProductDetail']);
+Route::post('/ProductSpecialPricing/GetDataItem', [ProductSpecialPricingController::class, 'getDataItem']);
+Route::get('/ProductSpecialPricing/Detail/{id}', [ProductSpecialPricingController::class, 'detail'])->name('ProductSpecialPricing.Detail');
+Route::post('/ProductSpecialPricing/Posting/{id}', [ProductSpecialPricingController::class, 'posting'])->name('ProductSpecialPricing.Posting');
+Route::post('/ProductSpecialPricing/StoreDetail', [ProductSpecialPricingController::class, 'StoreProductSpecialPricingDetail']);
+Route::post('/ProductSpecialPricing/UpdateDetail', [ProductSpecialPricingController::class, 'UpdateProductSpecialPricingDetail']);
+Route::post('/ProductSpecialPricing/DeleteDetail', [ProductSpecialPricingController::class, 'DeleteProductSpecialPricingDetail']);
+Route::post('/ProductSpecialPricing/ResetDetail', [ProductSpecialPricingController::class, 'ResetProductSpecialPricingDetail']);
+Route::post('/ProductSpecialPricing/EditDetail', [ProductSpecialPricingController::class, 'EditProductSpecialPricingDetail']);
+Route::post('/ProductSpecialPricing/RestoreDetail', [ProductSpecialPricingController::class, 'RestoreProductSpecialPricingDetail']);
+Route::post('/ProductSpecialPricing/GetDetail', [ProductSpecialPricingController::class, 'GetProductSpecialPricingDetail']);
+Route::post('/ProductSpecialPricing/GetDataFooter', [ProductSpecialPricingController::class, 'GetProductSpecialPricingFooter']);
+Route::post('/ProductSpecialPricing/Delete', [ProductSpecialPricingController::class, 'delete']);
+Route::resource('ProductSpecialPricing', ProductSpecialPricingController::class);
+
+//Cashier
+Route::get('/Cashier/GetData', [CashierController::class, 'getDataIndex']);
+Route::get('/Cashier/Add', [CashierController::class, 'create']);
+Route::post('/Cashier/GetProduct', [CashierController::class, 'getProduct']);
+Route::post('/Cashier/GetSatuan', [CashierController::class, 'getProductDetail']);
+Route::post('/Cashier/GetDataItem', [CashierController::class, 'getDataItem']);
+Route::get('/Cashier/Detail/{id}', [CashierController::class, 'detail'])->name('Cashier.Detail');
+Route::post('/Cashier/Posting/{id}', [CashierController::class, 'posting'])->name('Cashier.Posting');
+Route::post('/Cashier/StoreTransaction', [CashierController::class, 'StoreTransaction']);
+Route::post('/Cashier/UpdateTransaction', [CashierController::class, 'UpdateTransaction']);
+Route::post('/Cashier/DeleteDetail', [CashierController::class, 'DeleteCashierDetail']);
+Route::post('/Cashier/ResetDetail', [CashierController::class, 'ResetCashierDetail']);
+Route::post('/Cashier/EditDetail', [CashierController::class, 'EditCashierDetail']);
+Route::post('/Cashier/RestoreDetail', [CashierController::class, 'RestoreCashierDetail']);
+Route::post('/Cashier/GetDetail', [CashierController::class, 'GetCashierDetail']);
+Route::post('/Cashier/GetDataFooter', [CashierController::class, 'GetCashierFooter']);
+Route::post('/Cashier/Delete', [CashierController::class, 'delete']);
+Route::get('/Cashier/Cetak/{id}', [CashierController::class, 'cetak'])->name('Cashier.Cetak');
+Route::post('/Cashier/GetCustomerDebt', [CashierController::class, 'getPreviousDebt']);
+Route::post('/Cashier/ExportCashier', [CashierController::class, 'exportDataCashier'])->name('Cashier.Export');
+Route::resource('Cashier', CashierController::class);
