@@ -192,6 +192,7 @@
 
                                 <div class="mt-2 mt-sm-0">
                                     <a type="button" class="btn btn-outline-primary" href='{{route('Cashier.Cetak', $dataTransaction->id)}}' target="_blank">Cetak Struk<i class="fas fa-print ml-2"></i></a>
+                                    <button type="button" class="btn btn-outline-primary" id="btn_cetak_direct" >Print Direct<i class="fas fa-print ml-2"></i></button>
                                     @if(($group == "cashier"  && $dataTransaction->flag_request_revisi != 1))
                                         <button type="button" class="btn btn-warning mt-2 mt-sm-0 btnSubmit" id="btn_req_revisi" value="request_revisi">Request Revisi<i class="fas fa-file-signature ml-2"></i></button>
                                     @endif
@@ -705,6 +706,25 @@
                 }
             });
 		});
+
+        $("#btn_cetak_direct").on("click", function(e) {
+            //getdataItem
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            $.ajax({
+                url: "/Cashier/CetakDirect",
+                method: 'POST',
+                data: {
+                    idStruk: "{{$dataTransaction->id}}",
+                },
+                success: function(result){
+                    console.log(result);
+                }
+            });
+        });
 
     	//$('div.alert').delay(5000).slideUp(300);
     </script>

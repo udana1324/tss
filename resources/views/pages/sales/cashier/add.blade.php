@@ -341,7 +341,7 @@
 
                             <div class="mt-2 mt-sm-0">
                                 <button type="button" id="btnReset" class="btn btn-light-primary font-weight-bold mr-2" style="display:none ;"> Buat Transaksi Baru </button>
-                                <a id="btnCetak" style="display:none ;" type="button" class="btn btn-outline-primary" target="_blank"> Cetak Receipt<i class="fas fa-print ml-2"></i></a>
+                                <button id="btnCetak" style="display:none ;" type="button" class="btn btn-outline-primary" > Cetak Receipt<i class="fas fa-print ml-2"></i></button>
                                 <button type="button" id="btnPembayaran" class="btn btn-light-primary font-weight-bold mr-2" style="display:none ;"> Pembayaran </button>
                                 <button type="button" id="btnSubmit" class="btn btn-light-primary font-weight-bold mr-2" style="display:none ;"> Submit </button>
                             </div>
@@ -1272,7 +1272,7 @@
 
                         var routePrint = "{{route('Cashier.Cetak', 'idTransaction')}}";
                         var url = routePrint.replace('idTransaction', result.id);
-                        $('#btnCetak').attr('href', url);
+                        // $('#btnCetak').attr('href', url);
                         $("#btnSubmit").hide();
                         $("#btnReset").show();
                         $("#btnCetak").show();
@@ -1289,6 +1289,25 @@
                 }
             });
         }
+
+        $("#btnCetak").on("click", function(e) {
+            //getdataItem
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            $.ajax({
+                url: "/Cashier/CetakDirect",
+                method: 'POST',
+                data: {
+                    idStruk: $("#idTransaction").val(),
+                },
+                success: function(result){
+                    console.log(result);
+                }
+            });
+        });
 
     	//$('div.alert').delay(5000).slideUp(300);
     </script>

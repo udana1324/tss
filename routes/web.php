@@ -1243,4 +1243,5 @@ Route::post('/Cashier/Delete', [CashierController::class, 'delete']);
 Route::get('/Cashier/Cetak/{id}', [CashierController::class, 'cetak'])->name('Cashier.Cetak');
 Route::post('/Cashier/GetCustomerDebt', [CashierController::class, 'getPreviousDebt']);
 Route::post('/Cashier/ExportCashier', [CashierController::class, 'exportDataCashier'])->name('Cashier.Export');
+Route::post('/Cashier/CetakDirect', [CashierController::class, 'cetakDirect']);
 Route::resource('Cashier', CashierController::class);

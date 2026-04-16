@@ -36,7 +36,10 @@ use App\Models\Sales\SalesCashierDetail;
 use App\Models\Setting\User;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Codedge\Fpdf\Fpdf\Fpdf;
+use Exception;
 use Illuminate\Support\Facades\Session;
+use Mike42\Escpos\PrintConnectors\WindowsPrintConnector;
+use Mike42\Escpos\Printer;
 use stdClass;
 
 class CashierController extends Controller
@@ -443,6 +446,169 @@ class CashierController extends Controller
 
                 $pdf = Pdf::loadView('pages.sales.cashier.cetak', ['data' => $data]);
                 return $pdf->stream("Receipt.pdf");
+            }
+            else {
+                return redirect('/Cashier')->with('warning', 'Anda tidak memiliki Hak Akses untuk Halaman tersebut!');
+            }
+        }
+        else {
+            return redirect('/');
+        }
+    }
+
+    public function cetakDirect(Request $request)
+    {
+        $id = $request->input('idStruk');
+        if (Auth::check()) {
+
+            $hakAkses = DB::table('module')
+                                ->join('module_access', 'module_access.menu_id', '=', 'module.id')
+                                ->select('*')
+                                ->where([
+                                            ['module.url', '=', '/Cashier'],
+                                            ['module_access.user_id', '=', Auth::user()->id]
+                                        ])
+                                ->first();
+
+            $user = Auth::user()->user_group;
+
+            if ($hakAkses->print == "Y") {
+                SetMenu::setDaftarMenu(Auth::user()->id);
+                SetMenu::setDaftarMenuHeader(Auth::user()->id);
+                $data = array();
+
+                $dataTransaction = SalesCashier::find($id);
+                $prevTransaction = SalesCashier::find($dataTransaction->id_hutang);
+                $dataUser = User::find($dataTransaction->id_user);
+                $dataCustomer = Customer::find($dataTransaction->id_customer);
+                $dataRekening = CompanyAccount::leftJoin('bank', 'company_account.bank', '=', 'bank.id')
+                                                ->where([
+                                                    ['company_account.id', '=', $dataTransaction->id_rekening]
+                                                ])
+                                                ->first();
+
+                $details = SalesCashierDetail::leftJoin('product', 'sales_cashier_detail.id_item', 'product.id')
+                                    ->leftJoin('product_unit', 'sales_cashier_detail.id_satuan', 'product_unit.id')
+                                    ->select(
+                                        'sales_cashier_detail.id',
+                                        'sales_cashier_detail.id_item',
+                                        'sales_cashier_detail.id_satuan',
+                                        'sales_cashier_detail.qty_item',
+                                        'sales_cashier_detail.harga_jual',
+                                        'sales_cashier_detail.subtotal',
+                                        'product.nama_item',
+                                        'product_unit.nama_satuan'
+                                    )
+                                    ->where([
+                                        ['sales_cashier_detail.id_sc', '=', $id]
+                                    ])
+                                    ->get();
+
+
+                $data['dataPreference'] = Preference::where([['flag_default', '=', 'Y']])->first();
+                $data['dataTransaction'] = $dataTransaction;
+                $data['prevTransaction'] = $prevTransaction;
+                $data['dataUser'] = $dataUser;
+                $data['dataCustomer'] = $dataCustomer;
+                $data['dataRekening'] = $dataRekening;
+                $data['details'] = $details;
+                $data['current_user'] = Auth::user()->user_name;
+
+
+                $log = ActionLog::create([
+                    'module' => 'Cetak Struk Kasir',
+                    'action' => 'Generate',
+                    'desc' => 'Generate Cetak Struk Kasir. Ref. :'.$dataTransaction->no_ref,
+                    'username' => Auth::user()->user_name
+                ]);
+
+                try {
+                    $printerName = "POS-58";
+                    $connector = new WindowsPrintConnector($printerName);
+                    $printer = new Printer($connector);
+
+                    $printer->initialize();
+
+
+                    /* --- Header --- */
+                    $printer->setJustification(Printer::JUSTIFY_CENTER);
+                    $printer->selectPrintMode(Printer::MODE_DOUBLE_WIDTH | Printer::MODE_DOUBLE_HEIGHT);
+                    $printer->text("Toko Sinar Serdang\n");
+                    $printer->selectPrintMode(); // Reset to normal
+                    $printer->text("Kemayoran, DKI Jakarta\n");
+                    $printer->text("Telp: 123123123\n");
+                    $printer->text("================================\n");
+
+                    /* --- Data Receipt --- */
+                    $printer->setJustification(Printer::JUSTIFY_LEFT);
+                    $printer->text("No. Nota : ".strtoupper($dataTransaction->no_ref)."\n");
+                    $printer->text("Waktu    : ".Carbon::parse($dataTransaction->tanggal_penjualan)->locale('id')->isoFormat('DD MMMM Y HH:mm:ss')."\n");
+                    $printer->text("Kasir    : ".ucwords($dataUser->user_name)."\n");
+                    $printer->text("Customer : ".strtoupper($dataCustomer->nama_customer)."\n");
+                    $printer->text("--------------------------------\n");
+
+                    //set smaller font
+                    $printer->setFont(Printer::FONT_B);
+                    foreach($details as $detail) {
+                        $printer->text(ucwords($detail->nama_item)."(".ucwords($detail->nama_satuan).")\n");
+                        $printer->text(str_pad(number_format($detail->qty_item, 0,",",".")." x @ ".number_format($detail->harga_jual, 0,",","."), 20).str_pad(number_format($detail->subtotal, 0,",","."), 12, " ", STR_PAD_LEFT) . "\n");
+
+                        $printer->text("--------------------------------\n");
+                    }
+
+                    /* --- Totals --- */
+                    $printer->text(str_pad("Subtotal ".number_format($dataTransaction->jumlah_total_qty, 0,",",".")." Produk", 20) . str_pad(number_format($dataTransaction->nominal_total, 0,",","."), 12, " ", STR_PAD_LEFT) . "\n");
+                    $printer->setEmphasis(true);
+                    $printer->text(str_pad("Total", 20) . str_pad(number_format(($dataTransaction->nominal_total), 0,",","."), 12, " ", STR_PAD_LEFT) . "\n");
+                    $printer->setEmphasis(false);
+                    $printer->text(str_pad("Pembayaran: ".strtoupper($dataTransaction->metode_pembayaran), 20) . str_pad(number_format($dataTransaction->nominal_pembayaran, 0,",","."), 12, " ", STR_PAD_LEFT) . "\n");
+                    $printer->text(str_pad("Total Bayar", 25) . str_pad(number_format($dataTransaction->nominal_pembayaran, 0,",","."), 12, " ", STR_PAD_LEFT) . "\n");
+
+                    /* --- Footer --- */
+                    $printer->feed(1);
+                    $printer->setJustification(Printer::JUSTIFY_CENTER);
+                    $printer->text("Tokopedia: Test Tokopedia\n");
+                    $printer->text("Shopee: Test Shapee\n");
+                    $printer->text("Teks Promosi\n");
+                    //set back to normal font
+                    $printer->setFont(Printer::FONT_A);
+                    $printer->feed(1);
+                    $printer->setJustification(Printer::JUSTIFY_LEFT);
+                    $printer->setTextSize(1, 1);
+                    $printer->text("Tgl. Cetak: ".Carbon::now()->locale('id')->isoFormat('DD MMMM Y HH:mm:ss')."\n");
+                    $printer->text("Dicetak: ".ucwords(Auth::user()->user_name)."\n");
+
+                    /* --- Cut the paper --- */
+                    // $printer->cut();
+                    $printer->feed(1);
+
+                    $printer->close();
+
+
+
+
+                    $log = ActionLog::create([
+                        'module' => 'Cetak Struk Kasir',
+                        'action' => 'Generate',
+                        'desc' => 'Generate Cetak Struk Kasir. Ref. :'.$dataTransaction->no_ref,
+                        'username' => Auth::user()->user_name
+                    ]);
+
+                    return response()->json("success");
+                }
+                catch (Exception $e) {
+                    $log = ActionLog::create([
+                        'module' => 'Gagal Cetak Struk Kasir',
+                        'action' => 'Gagal Generate',
+                        'desc' => 'Gagal Generate Cetak Struk Kasir. Ref. :'.$dataTransaction->no_ref."|".$e->getMessage(),
+                        'username' => Auth::user()->user_name
+                    ]);
+
+                    return response()->json("gagal err:".$e->getMessage());
+                }
+
+
+
             }
             else {
                 return redirect('/Cashier')->with('warning', 'Anda tidak memiliki Hak Akses untuk Halaman tersebut!');
