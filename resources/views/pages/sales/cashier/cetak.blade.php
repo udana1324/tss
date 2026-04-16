@@ -22,11 +22,15 @@
     @endphp
     <style>
     @page {
-        margin-top: 10px; /* Set top margin to 0 */
+        margin-top: 0px; /* Set top margin to 0 */
         /* You can also set other margins if needed */
         /* margin-right: 0px; */
         /* margin-bottom: 0px; */
         margin-left: 0px;
+    }
+
+    body {
+        font-family: "Arial", sans-serif;
     }
 
     /* @media print {
@@ -35,7 +39,7 @@
     } */
 
     .center-table {
-        width: 90%;
+        width: 100%;
         display: block;
         margin: auto;
         clear: both;
@@ -52,7 +56,7 @@
 <body>
     <div style="width: 58mm;">
         <div class="center-table">
-            <table style="margin-left:0;width: 90%;border-collapse: collapse;font-size:8px;">
+            <table style="margin-left:0;width: 100%;border-collapse: collapse;font-size:14px;">
                 <tr>
                     <td style="text-align: center;">{{ucwords($data["dataPreference"]["nama_pt"])}}</td>
                 </tr>
@@ -66,12 +70,12 @@
                     <td style="text-align: center;">Telp : {{ucwords($data["dataPreference"]["telp_pt"])}}</td>
                 </tr>
             </table>
-            <table style="margin-left:0;width: 90%;border-collapse: collapse;font-size:7px;">
+            <table style="margin-left:0;width: 100%;border-collapse: collapse;font-size:12px;">
                 <tr>
                     <td style="text-align: left;border-top:1px dashed black;border-bottom:1px dashed black;"></td>
                 </tr>
             </table>
-            <table style="margin-left:0;width: 90%;border-collapse: collapse;font-size:7px;">
+            <table style="margin-left:0;width: 100%;border-collapse: collapse;font-size:12px;">
                 <tr>
                     <td style="text-align: left;width:25%;">No. Nota</td>
                     <td style="width:5%;">:</td>
@@ -93,7 +97,7 @@
                     <td style="text-align: left;">{{ucwords($data["dataCustomer"]["nama_customer"])}}</td>
                 </tr>
                 </table>
-                <table style="width: 90%;padding-top:5px;border-collapse: collapse;font-size:7px;">
+                <table style="width: 100%;padding-top:5px;border-collapse: collapse;font-size:12px;">
                 @foreach($data["details"] as $detail)
                     @if ($loop->first)
                     <tr>
@@ -181,11 +185,12 @@
         </div>
     </div>
     <script type="text/javascript">
-        try {
-            this.print();
-        } catch (e) {
-            window.onload = window.print;
+        window.onload = function() {
+            window.print();
         }
+        window.onafterprint = function() {
+            window.close();
+        };
     </script>
 </body>
 </html>

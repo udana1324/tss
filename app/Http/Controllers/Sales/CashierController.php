@@ -444,8 +444,10 @@ class CashierController extends Controller
                 // $fpdf->Output('I', strtoupper(str_replace(["-","/"],"_",$dataDelivery->kode_pengiriman)).".pdf");
                 // exit;
 
-                $pdf = Pdf::loadView('pages.sales.cashier.cetak', ['data' => $data]);
-                return $pdf->stream("Receipt.pdf");
+                // $pdf = Pdf::loadView('pages.sales.cashier.cetak', ['data' => $data]);
+                // return $pdf->stream("Receipt.pdf");
+
+                return view('pages.sales.cashier.cetak', ['data' => $data]);
             }
             else {
                 return redirect('/Cashier')->with('warning', 'Anda tidak memiliki Hak Akses untuk Halaman tersebut!');
